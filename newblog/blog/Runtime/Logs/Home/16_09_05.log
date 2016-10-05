@@ -1,0 +1,10 @@
+[ 2016-09-05T20:16:00+08:00 ] ::1 /thinkphp2/index.php/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_members` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `blog_members` WHERE `m_name` = 'root' AND `password` = '5f4dcc3b5aa765d61d8327deb882cf99' LIMIT 1   [ RunTime:0.0480s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

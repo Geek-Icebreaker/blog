@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="zh-CN">
+<include file="Public:head" />
+<body class="user-select">
+		<!--顶部nav开始-->
+		<include file="Public:header"/>
+		<!--顶部nav结束-->
+	<section class="container container-page">
+		<!--左侧菜单开始-->
+		<include file="Public:left"/>
+		<!--左侧菜单结束-->
+	  <div class="content">
+	    <header class="article-header">
+	      <h1 class="article-title">友情链接</h1>
+	    </header>
+	    <ul class="plinks">
+		  <volist name="allLinks" id="links">
+			<li><a href="{$links.url}" title="" target="_blank" rel="nofollow"><img src="__IMAGES__/icon/icon.png" alt="">{$links.name}</a></li>
+		  </volist>
+	    </ul>
+	  </div>
+	</section>
+	<!--登录注册开始-->
+		<include file="Public:loginReg"/>
+	<!--登录注册结束-->
+	<include file="Public:footer"/>
+
+	<!--about部分开始-->
+	<include file="Public:about"/>
+	<!--about部分结束-->
+	
+<!--
+<div id="rightClickMenu">
+  <ul class="list-group rightClickMenuList">
+    <li class="list-group-item disabled">欢迎访问破冰者博客</li>
+    <li class="list-group-item"><span>IP：</span>172.16.10.129</li>
+    <li class="list-group-item"><span>地址：</span>河南省郑州市</li>
+    <li class="list-group-item"><span>系统：</span>Windows10 </li>
+    <li class="list-group-item"><span>浏览器：</span>Chrome47</li>
+  </ul>
+</div>-->
+	<script type="text/javascript">
+		var thinkphp = {
+			'url':'__ROOT__/index.php/'
+		}
+	</script>
+<script src="__JS__/bootstrap.min.js"></script> 
+<script src="__JS__/jquery.ias.js"></script> 
+<script src="__JS__/scripts.js"></script> 
+<script src="__JS__/index.js"></script> 
+</body>
+</html>

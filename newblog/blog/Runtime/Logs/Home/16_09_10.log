@@ -1,0 +1,1395 @@
+[ 2016-09-10T11:31:33+08:00 ] ::1 /thinkphp2/index.php/Base/isOnline
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-10T16:50:22+08:00 ] ::1 /thinkphp2/index.php/Base/isOnline
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T16:52:15+08:00 ] ::1 /thinkphp2/index.php/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_members` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `blog_members` WHERE `m_name` = 'joychi' AND `password` = '066eca7e6ec134fb5b064223345e830d' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-10T16:53:01+08:00 ] ::1 /thinkphp2/index.php/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_members` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `blog_members` WHERE `m_name` = 'joychi' AND `password` = '066eca7e6ec134fb5b064223345e830d' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T17:00:43+08:00 ] ::1 /thinkphp2/index.php/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_members` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `blog_members` WHERE `m_name` = 'root' AND `password` = '5f4dcc3b5aa765d61d8327deb882cf99' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-10T17:02:50+08:00 ] ::1 /thinkphp2/index.php/Base/isOnline
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T17:02:52+08:00 ] ::1 /thinkphp2/index.php/Article/comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `blog_comment` (`aid`,`mid`,`comment`,`comment_time`) VALUES ('9','0','','1473498172') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-10T17:03:14+08:00 ] ::1 /thinkphp2/index.php/Base/isOnline
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-10T17:03:16+08:00 ] ::1 /thinkphp2/index.php/Article/comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `blog_comment` (`aid`,`mid`,`comment`,`comment_time`) VALUES ('9','0','','1473498196') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T17:10:58+08:00 ] ::1 /thinkphp2/index.php/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_members` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `blog_members` WHERE `m_name` = 'root' AND `password` = '5f4dcc3b5aa765d61d8327deb882cf99' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T17:10:59+08:00 ] ::1 /thinkphp2/index.php/Index/index
+ERR: Think\Controller:assian方法不存在！
+
+[ 2016-09-10T17:19:08+08:00 ] ::1 /thinkphp2/index.php/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `blog_members` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `blog_members` WHERE `m_name` = 'root' AND `password` = '5f4dcc3b5aa765d61d8327deb882cf99' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T17:19:24+08:00 ] ::1 /thinkphp2/index.php/Base/isOnline
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-10T17:19:26+08:00 ] ::1 /thinkphp2/index.php/Article/comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `blog_comment` (`aid`,`mid`,`comment`,`comment_time`) VALUES ('8','62','','1473499166') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-10T17:59:09+08:00 ] ::1 /thinkphp2/index.php/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_members` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `blog_members` WHERE `m_name` = 'root12341234' AND `password` = '5f4dcc3b5aa765d61d8327deb882cf99' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-10T17:59:13+08:00 ] ::1 /thinkphp2/index.php/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `blog_members` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `blog_members` WHERE `m_name` = 'root12341234' AND `password` = '5f4dcc3b5aa765d61d8327deb882cf99' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-10T18:26:48+08:00 ] ::1 /thinkphp2/index.php/Base/isOnline
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T18:29:17+08:00 ] ::1 /thinkphp2/index.php/Base/isOnline
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T18:29:22+08:00 ] ::1 /thinkphp2/index.php/Base/isOnline
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-10T18:29:26+08:00 ] ::1 /thinkphp2/index.php/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `blog_members` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `blog_members` WHERE `m_name` = 'root' AND `password` = '5f4dcc3b5aa765d61d8327deb882cf99' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T18:29:29+08:00 ] ::1 /thinkphp2/index.php/Base/isOnline
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T18:31:07+08:00 ] ::1 /thinkphp2/index.php/Base/isOnline
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T18:31:10+08:00 ] ::1 /thinkphp2/index.php/Article/comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `blog_comment` (`aid`,`mid`,`comment`,`comment_time`) VALUES ('3','62','linux系统下如何定时任务啊','1473503470') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T20:12:14+08:00 ] ::1 /thinkphp2/index.php/Base/isOnline
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-10T20:12:17+08:00 ] ::1 /thinkphp2/index.php/Article/comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `blog_comment` (`aid`,`mid`,`comment`,`comment_time`) VALUES ('8','62','124324','1473509537') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T20:12:31+08:00 ] ::1 /thinkphp2/index.php/Base/isOnline
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-10T20:12:34+08:00 ] ::1 /thinkphp2/index.php/Article/comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `blog_comment` (`aid`,`mid`,`comment`,`comment_time`) VALUES ('8','62','lkkkkk','1473509554') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T20:13:49+08:00 ] ::1 /thinkphp2/index.php/Base/isOnline
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-10T20:13:52+08:00 ] ::1 /thinkphp2/index.php/Article/comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `blog_comment` (`aid`,`mid`,`comment`,`comment_time`) VALUES ('8','62','1234324','1473509632') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T20:17:06+08:00 ] ::1 /thinkphp2/index.php/Base/isOnline
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-10T20:17:07+08:00 ] ::1 /thinkphp2/index.php/Article/comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `blog_comment` (`aid`,`mid`,`comment`,`comment_time`) VALUES ('1','62','如何进行中间人攻击啊','1473509827') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T20:17:19+08:00 ] ::1 /thinkphp2/index.php/Base/isOnline
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T20:17:20+08:00 ] ::1 /thinkphp2/index.php/Article/comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `blog_comment` (`aid`,`mid`,`comment`,`comment_time`) VALUES ('1','62','如何进行中间人攻击啊','1473509840') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T20:17:21+08:00 ] ::1 /thinkphp2/index.php/Base/isOnline
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T20:17:21+08:00 ] ::1 /thinkphp2/index.php/Base/isOnline
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T20:17:22+08:00 ] ::1 /thinkphp2/index.php/Article/comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `blog_comment` (`aid`,`mid`,`comment`,`comment_time`) VALUES ('1','62','如何进行中间人攻击啊','1473509842') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T20:17:22+08:00 ] ::1 /thinkphp2/index.php/Base/isOnline
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T20:17:23+08:00 ] ::1 /thinkphp2/index.php/Article/comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `blog_comment` (`aid`,`mid`,`comment`,`comment_time`) VALUES ('1','62','如何进行中间人攻击啊','1473509843') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-10T20:17:23+08:00 ] ::1 /thinkphp2/index.php/Base/isOnline
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T20:17:24+08:00 ] ::1 /thinkphp2/index.php/Article/comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `blog_comment` (`aid`,`mid`,`comment`,`comment_time`) VALUES ('1','62','如何进行中间人攻击啊','1473509844') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T20:17:25+08:00 ] ::1 /thinkphp2/index.php/Article/comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `blog_comment` (`aid`,`mid`,`comment`,`comment_time`) VALUES ('1','62','如何进行中间人攻击啊','1473509845') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-10T20:18:03+08:00 ] ::1 /thinkphp2/index.php/Base/isOnline
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-10T20:19:25+08:00 ] ::1 /thinkphp2/index.php/Base/isOnline
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T20:19:26+08:00 ] ::1 /thinkphp2/index.php/Article/comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `blog_comment` (`aid`,`mid`,`comment`,`comment_time`) VALUES ('1','62','看一看','1473509966') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T20:19:49+08:00 ] ::1 /thinkphp2/index.php/Base/isOnline
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T20:19:50+08:00 ] ::1 /thinkphp2/index.php/Article/comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `blog_comment` (`aid`,`mid`,`comment`,`comment_time`) VALUES ('1','62','写的不错','1473509990') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-10T20:20:49+08:00 ] ::1 /thinkphp2/index.php/Base/isOnline
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T20:20:50+08:00 ] ::1 /thinkphp2/index.php/Article/comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `blog_comment` (`aid`,`mid`,`comment`,`comment_time`) VALUES ('8','62','gogogog','1473510050') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T20:21:10+08:00 ] ::1 /thinkphp2/index.php/Base/isOnline
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-10T20:21:11+08:00 ] ::1 /thinkphp2/index.php/Article/comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `blog_comment` (`aid`,`mid`,`comment`,`comment_time`) VALUES ('8','62','1343242134','1473510071') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T20:21:13+08:00 ] ::1 /thinkphp2/index.php/Base/isOnline
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-10T20:21:14+08:00 ] ::1 /thinkphp2/index.php/Article/comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `blog_comment` (`aid`,`mid`,`comment`,`comment_time`) VALUES ('8','62','1343242134','1473510074') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T20:23:23+08:00 ] ::1 /thinkphp2/index.php/Base/isOnline
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T20:23:24+08:00 ] ::1 /thinkphp2/index.php/Article/comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `blog_comment` (`aid`,`mid`,`comment`,`comment_time`) VALUES ('8','62','123434','1473510204') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T20:23:48+08:00 ] ::1 /thinkphp2/index.php/Base/isOnline
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-10T20:23:50+08:00 ] ::1 /thinkphp2/index.php/Article/comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `blog_comment` (`aid`,`mid`,`comment`,`comment_time`) VALUES ('8','62','好文章','1473510230') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T20:25:02+08:00 ] ::1 /thinkphp2/index.php/Base/isOnline
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T20:25:03+08:00 ] ::1 /thinkphp2/index.php/Article/comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `blog_comment` (`aid`,`mid`,`comment`,`comment_time`) VALUES ('8','62','hello 1234','1473510303') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-10T20:33:05+08:00 ] ::1 /thinkphp2/index.php/Base/isOnline
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T20:33:06+08:00 ] ::1 /thinkphp2/index.php/Article/comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `blog_comment` (`aid`,`mid`,`comment`,`comment_time`) VALUES ('8','62','000pppp123','1473510786') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T20:46:52+08:00 ] ::1 /thinkphp2/index.php/Base/isOnline
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T20:46:53+08:00 ] ::1 /thinkphp2/index.php/Article/comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `blog_comment` (`aid`,`mid`,`comment`,`comment_time`) VALUES ('8','62','1234','1473511613') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T20:49:32+08:00 ] ::1 /thinkphp2/index.php/Base/isOnline
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T20:49:33+08:00 ] ::1 /thinkphp2/index.php/Article/comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `blog_comment` (`aid`,`mid`,`comment`,`comment_time`) VALUES ('8','62','你好。你好，。','1473511773') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-10T20:55:32+08:00 ] ::1 /thinkphp2/index.php/Base/isOnline
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T20:55:33+08:00 ] ::1 /thinkphp2/index.php/Article/comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `blog_comment` (`aid`,`mid`,`comment`,`comment_time`) VALUES ('8','62','啦啦啦啦啦啦啦啦','1473512133') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-09-10T21:04:49+08:00 ] ::1 /thinkphp2/index.php/Base/isOnline
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T21:04:50+08:00 ] ::1 /thinkphp2/index.php/Article/comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `blog_comment` (`aid`,`mid`,`comment`,`comment_time`) VALUES ('8','62','博客不错','1473512690') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T21:05:45+08:00 ] ::1 /thinkphp2/index.php/Base/isOnline
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-10T21:05:46+08:00 ] ::1 /thinkphp2/index.php/Article/comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `blog_comment` (`aid`,`mid`,`comment`,`comment_time`) VALUES ('8','62','111342134123','1473512746') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-10T21:24:04+08:00 ] ::1 /thinkphp2/index.php/Base/isOnline
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T21:24:05+08:00 ] ::1 /thinkphp2/index.php/Article/comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `blog_comment` (`aid`,`mid`,`comment`,`comment_time`) VALUES ('8','62','哈哈哈哈','1473513845') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-10T21:38:17+08:00 ] ::1 /thinkphp2/index.php/Base/isOnline
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-09-10T21:38:19+08:00 ] ::1 /thinkphp2/index.php/Article/comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `blog_comment` (`aid`,`mid`,`comment`,`comment_time`) VALUES ('8','62','为什么添加不了','1473514699') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T21:38:46+08:00 ] ::1 /thinkphp2/index.php/Base/isOnline
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T21:38:47+08:00 ] ::1 /thinkphp2/index.php/Article/comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `blog_comment` (`aid`,`mid`,`comment`,`comment_time`) VALUES ('8','62','还是添加不了','1473514727') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-10T21:40:52+08:00 ] ::1 /thinkphp2/index.php/Base/isOnline
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-10T21:40:53+08:00 ] ::1 /thinkphp2/index.php/Article/comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `blog_comment` (`aid`,`mid`,`comment`,`comment_time`) VALUES ('8','62','1313241324非哥哥腹股沟管','1473514853') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-10T21:41:31+08:00 ] ::1 /thinkphp2/index.php/Base/isOnline
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T21:41:32+08:00 ] ::1 /thinkphp2/index.php/Article/comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `blog_comment` (`aid`,`mid`,`comment`,`comment_time`) VALUES ('8','62','博主能分享源码嘛','1473514892') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-10T21:42:08+08:00 ] ::1 /thinkphp2/index.php/Base/isOnline
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-10T21:42:09+08:00 ] ::1 /thinkphp2/index.php/Article/comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `blog_comment` (`aid`,`mid`,`comment`,`comment_time`) VALUES ('8','62','学习了','1473514929') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-10T21:42:56+08:00 ] ::1 /thinkphp2/index.php/Base/isOnline
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-10T21:42:58+08:00 ] ::1 /thinkphp2/index.php/Article/comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `blog_comment` (`aid`,`mid`,`comment`,`comment_time`) VALUES ('8','62','不错不错','1473514978') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T21:48:53+08:00 ] ::1 /thinkphp2/index.php/Base/isOnline
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T21:48:54+08:00 ] ::1 /thinkphp2/index.php/Article/comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `blog_comment` (`aid`,`mid`,`comment`,`comment_time`) VALUES ('8','62','如何判断脚本内容','1473515334') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-10T21:55:13+08:00 ] ::1 /thinkphp2/index.php/Base/isOnline
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T21:55:14+08:00 ] ::1 /thinkphp2/index.php/Article/comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `blog_comment` (`aid`,`mid`,`comment`,`comment_time`) VALUES ('8','62','撒旦反对萨芬水电费萨芬','1473515714') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-10T21:55:47+08:00 ] ::1 /thinkphp2/index.php/Base/isOnline
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-10T21:55:48+08:00 ] ::1 /thinkphp2/index.php/Article/comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `blog_comment` (`aid`,`mid`,`comment`,`comment_time`) VALUES ('8','62','12342134324','1473515748') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T21:56:56+08:00 ] ::1 /thinkphp2/index.php/Base/isOnline
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-10T21:56:57+08:00 ] ::1 /thinkphp2/index.php/Article/comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `blog_comment` (`aid`,`mid`,`comment`,`comment_time`) VALUES ('4','62','嘎嘎嘎嘎','1473515817') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T21:59:48+08:00 ] ::1 /thinkphp2/index.php/Base/isOnline
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T21:59:49+08:00 ] ::1 /thinkphp2/index.php/Article/comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `blog_comment` (`aid`,`mid`,`comment`,`comment_time`) VALUES ('4','62','啪啪啪啪啪啪啪','1473515989') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-10T22:00:58+08:00 ] ::1 /thinkphp2/index.php/Base/isOnline
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T22:00:59+08:00 ] ::1 /thinkphp2/index.php/Article/comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `blog_comment` (`aid`,`mid`,`comment`,`comment_time`) VALUES ('4','62','终于可以显示了','1473516059') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T22:05:35+08:00 ] ::1 /thinkphp2/index.php/Base/isOnline
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T22:05:36+08:00 ] ::1 /thinkphp2/index.php/Article/comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `blog_comment` (`aid`,`mid`,`comment`,`comment_time`) VALUES ('4','62','完成了','1473516336') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T22:05:48+08:00 ] ::1 /thinkphp2/index.php/Base/isOnline
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-10T22:05:49+08:00 ] ::1 /thinkphp2/index.php/Article/comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `blog_comment` (`aid`,`mid`,`comment`,`comment_time`) VALUES ('4','62','不错哦','1473516349') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T22:18:22+08:00 ] ::1 /thinkphp2/index.php/Base/isOnline
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-10T22:18:23+08:00 ] ::1 /thinkphp2/index.php/Article/comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `blog_comment` (`aid`,`mid`,`comment`,`comment_time`) VALUES ('4','62','现在应该可以添加到第一个位置了','1473517103') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T22:21:13+08:00 ] ::1 /thinkphp2/index.php/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_members` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `blog_members` WHERE `m_name` = 'Icebreaker' AND `password` = '066eca7e6ec134fb5b064223345e830d' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-10T22:21:32+08:00 ] ::1 /thinkphp2/index.php/Base/isOnline
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T22:21:33+08:00 ] ::1 /thinkphp2/index.php/Article/comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `blog_comment` (`aid`,`mid`,`comment`,`comment_time`) VALUES ('9','64','博主博客做的真不错啊','1473517293') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-10T22:26:20+08:00 ] ::1 /thinkphp2/index.php/Base/isOnline
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-09-10T22:26:21+08:00 ] ::1 /thinkphp2/index.php/Article/comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `blog_comment` (`aid`,`mid`,`comment`,`comment_time`) VALUES ('9','64','呼呼。博主有源码吗','1473517581') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T22:26:52+08:00 ] ::1 /thinkphp2/index.php/Base/isOnline
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T22:26:53+08:00 ] ::1 /thinkphp2/index.php/Article/comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `blog_comment` (`aid`,`mid`,`comment`,`comment_time`) VALUES ('9','64','[em_38]','1473517613') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T22:27:28+08:00 ] ::1 /thinkphp2/index.php/Base/isOnline
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T22:27:29+08:00 ] ::1 /thinkphp2/index.php/Article/comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `blog_comment` (`aid`,`mid`,`comment`,`comment_time`) VALUES ('9','64','[em_1]','1473517649') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T22:38:58+08:00 ] ::1 /thinkphp2/index.php/Base/isOnline
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T22:38:59+08:00 ] ::1 /thinkphp2/index.php/Article/comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `blog_comment` (`aid`,`mid`,`comment`,`comment_time`) VALUES ('9','64','3242314','1473518339') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-10T22:41:33+08:00 ] ::1 /thinkphp2/index.php/Base/isOnline
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T22:41:34+08:00 ] ::1 /thinkphp2/index.php/Article/comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `blog_comment` (`aid`,`mid`,`comment`,`comment_time`) VALUES ('9','64','[em_13]111','1473518494') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-10T22:49:16+08:00 ] ::1 /thinkphp2/index.php/Base/isOnline
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-09-10T22:49:17+08:00 ] ::1 /thinkphp2/index.php/Article/comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `blog_comment` (`aid`,`mid`,`comment`,`comment_time`) VALUES ('9','64','13242341324234','1473518957') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T22:49:25+08:00 ] ::1 /thinkphp2/index.php/Base/isOnline
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T22:49:26+08:00 ] ::1 /thinkphp2/index.php/Article/comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `blog_comment` (`aid`,`mid`,`comment`,`comment_time`) VALUES ('9','64','[em_4]','1473518966') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T22:52:23+08:00 ] ::1 /thinkphp2/index.php/Base/isOnline
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T22:52:24+08:00 ] ::1 /thinkphp2/index.php/Article/comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `blog_comment` (`aid`,`mid`,`comment`,`comment_time`) VALUES ('9','64','[em_2]','1473519144') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T22:53:46+08:00 ] ::1 /thinkphp2/index.php/Base/isOnline
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T22:53:47+08:00 ] ::1 /thinkphp2/index.php/Article/comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `blog_comment` (`aid`,`mid`,`comment`,`comment_time`) VALUES ('9','64','[em_6]','1473519227') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T22:56:15+08:00 ] ::1 /thinkphp2/index.php/Base/isOnline
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T22:56:16+08:00 ] ::1 /thinkphp2/index.php/Article/comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `blog_comment` (`aid`,`mid`,`comment`,`comment_time`) VALUES ('9','64','[em_1]','1473519376') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T22:56:42+08:00 ] ::1 /thinkphp2/index.php/Base/isOnline
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T22:56:43+08:00 ] ::1 /thinkphp2/index.php/Article/comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `blog_comment` (`aid`,`mid`,`comment`,`comment_time`) VALUES ('9','64','[em_30]','1473519403') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-10T23:20:31+08:00 ] ::1 /thinkphp2/index.php/Base/isOnline
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T23:20:32+08:00 ] ::1 /thinkphp2/index.php/Article/comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `blog_comment` (`aid`,`mid`,`comment`,`comment_time`) VALUES ('3','64','[em_60]','1473520832') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T23:20:46+08:00 ] ::1 /thinkphp2/index.php/Base/isOnline
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T23:20:47+08:00 ] ::1 /thinkphp2/index.php/Article/comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `blog_comment` (`aid`,`mid`,`comment`,`comment_time`) VALUES ('3','64','博主的博客很6啊','1473520847') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T23:20:58+08:00 ] ::1 /thinkphp2/index.php/Base/isOnline
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T23:20:59+08:00 ] ::1 /thinkphp2/index.php/Article/comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: validate E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `blog_comment` (`aid`,`mid`,`comment`,`comment_time`) VALUES ('3','64','博主能分享源码嘛[em_24][em_25]','1473520859') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T23:23:56+08:00 ] ::1 /thinkphp2/index.php/Base/isOnline
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-10T23:23:59+08:00 ] ::1 /thinkphp2/index.php/Base/isOnline
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T23:24:02+08:00 ] ::1 /thinkphp2/index.php/Base/isOnline
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-10T23:24:14+08:00 ] ::1 /thinkphp2/index.php/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_members` [ RunTime:0.0400s ]
+SQL: SELECT * FROM `blog_members` WHERE `m_name` = 'joychi' AND `password` = '066eca7e6ec134fb5b064223345e830d' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T23:24:26+08:00 ] ::1 /thinkphp2/index.php/Base/isOnline
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T23:24:27+08:00 ] ::1 /thinkphp2/index.php/Article/comment
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_comment` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `blog_comment` (`aid`,`mid`,`comment`,`comment_time`) VALUES ('3','63','[em_65][em_68][em_69][em_71]','1473521067') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-09-10T23:36:51+08:00 ] ::1 /thinkphp2/index.php/Base/isOnline
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T23:36:56+08:00 ] ::1 /thinkphp2/index.php/Base/isOnline
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T23:36:57+08:00 ] ::1 /thinkphp2/index.php/Base/isOnline
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-09-10T23:37:01+08:00 ] ::1 /thinkphp2/index.php/Base/isOnline
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

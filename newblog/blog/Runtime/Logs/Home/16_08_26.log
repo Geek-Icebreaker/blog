@@ -1,0 +1,43 @@
+[ 2016-08-26T21:08:09+08:00 ] ::1 /thinkphp2/index.php/index.php/Links.shtml
+ERR: 无法加载控制器:Index.php
+
+[ 2016-08-26T21:08:59+08:00 ] ::1 /thinkphp2/index.php/Category/article.html
+ERR: 非法操作:article.html
+
+[ 2016-08-26T21:13:41+08:00 ] ::1 /thinkphp2/index.php/article.html
+ERR: 无法加载控制器:Article.html
+
+[ 2016-08-26T21:28:02+08:00 ] ::1 /thinkphp2/index.php/Front/index
+ERR: 无法加载控制器:Front
+
+[ 2016-08-26T21:28:48+08:00 ] ::1 /thinkphp2/index.php/Safe/index
+ERR: 无法加载控制器:Safe
+
+[ 2016-08-26T22:29:19+08:00 ] ::1 /thinkphp2/index.php/Article/index/a_id/7.shtml
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY create_time desc LIMIT 4' at line 1
+ [ SQL语句 ] : SELECT `a_id`,`a_title`,`a_views`,`create_time` FROM `blog_article` WHERE ( a_id= ) ORDER BY create_time desc LIMIT 4  
+
+[ 2016-08-26T22:31:15+08:00 ] ::1 /thinkphp2/index.php/Article/index/a_id/7.shtml
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') ORDER BY create_time desc' at line 1
+ [ SQL语句 ] : SELECT `a_id`,`a_title`,`a_views`,`create_time` FROM `blog_article` WHERE ( a_id= ) ORDER BY create_time desc 
+
+[ 2016-08-26T22:32:17+08:00 ] ::1 /thinkphp2/index.php/Article/index/a_id/test.php?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-26T22:44:42+08:00 ] ::1 /thinkphp2/index.php/Article/index/a_id/test.php?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-26T22:47:42+08:00 ] ::1 /thinkphp2/index.php/Article/index/a_id/7.shtml
+ERR: 1054:Unknown column 'ba.content' in 'field list'
+ [ SQL语句 ] : SELECT ba.a_id,ba.a_title,ba.content,ba.a_views,ba.a_type,blog_admin.name,bac.cate_name,ba.create_time FROM blog_article ba left JOIN blog_article_cate bac on ba.cate_id = bac.cate_id INNER JOIN blog_admin on ba.a_author = blog_admin.id  WHERE ( a_id=7 ) ORDER BY create_time desc 
+

@@ -1,0 +1,77 @@
+body {
+    font-family:verdana,helvetica,arial,sans-serif;
+    font-size:12px;
+    margin:0;
+}
+h1,h2,h3,h4,h5,h6,span,a{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+h2 {
+    font-size:18px;
+    font-weight:bold;
+    margin:0;
+    margin-bottom:15px;
+}
+.demo-info{
+	padding:0 0 12px 0;
+}
+.demo-tip{
+	display:none;
+}
+.label-top{
+    display: block;
+    height: 22px;
+    line-height: 22px;
+    vertical-align: middle;
+}
+.header{
+	background: rgb(78,106,128);
+	height: 50px;
+	border: none;
+}
+.header h1{
+	line-height: 50px;
+	width: 200px;
+	color: white;
+	text-indent: 20px;
+	float: left;
+}
+.header span{
+	display: block;
+	color: white;
+	line-height: 50px;
+	float: right;
+	margin-right: 30px;
+}
+.header span a{
+	color: white;
+}
+#addMember,#editMember{
+	margin: 0 !important;
+	padding: 5px 0 0 25px !important;
+	color: #333 !important;
+}
+#addMember input,#editMember input{
+	width: 200px;
+}
+.dialog-button{
+	text-align: center !important;
+}
+#addArticle{
+	width: 80%;
+}
+
+.article-div{
+	width: 95%;
+	margin: 20px auto;
+}
+.article-div div{
+	margin-bottom: 5px;
+}
+#editLinks p,#addLinks p{
+	margin-left:20px;
+}

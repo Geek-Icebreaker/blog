@@ -1,0 +1,74 @@
+[ 2016-09-14T09:46:38+08:00 ] 61.160.224.135 /
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2016-09-14T09:47:57+08:00 ] 61.160.224.135 /index.php/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+SQL: SHOW COLUMNS FROM `blog_members` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `blog_members` WHERE `m_name` = 'joychi' AND `password` = '066eca7e6ec134fb5b064223345e830d' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000541s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000593s ]
+
+[ 2016-09-14T09:56:32+08:00 ] 61.160.224.135 /www.ice-breaker.cn/Public/Admin/ckfinder/ckfinder.html?type=Images&CKEditor=e_editor&CKEditorFuncNum=1&langCode=zh-cn
+ERR: 非法操作:Public
+
+[ 2016-09-14T09:57:35+08:00 ] 61.160.224.135 /www.ice-breaker.cn/Public/Admin/ckfinder/ckfinder.html?type=Images&CKEditor=e_editor&CKEditorFuncNum=1&langCode=zh-cn
+ERR: 非法操作:Public
+
+[ 2016-09-14T09:58:24+08:00 ] 61.160.224.135 /www.ice-breaker.cn/Public/Admin/ckfinder/ckfinder.html?type=Images&CKEditor=e_editor&CKEditorFuncNum=1&langCode=zh-cn
+ERR: 非法操作:Public
+
+[ 2016-09-14T09:58:38+08:00 ] 61.160.224.135 /www.ice-breaker.cn/admin.php/Ckfinder/upload?action=uploadImg&CKEditor=e_editor&CKEditorFuncNum=1&langCode=zh-cn
+ERR: 非法操作:admin.php
+
+[ 2016-09-14T10:03:48+08:00 ] 61.160.224.135 /index.php/index.php/Readers.shtml
+ERR: 非法操作:Readers
+
+[ 2016-09-14T10:51:30+08:00 ] 61.160.224.144 /js/html5shiv.min.js
+ERR: 非法操作:html5shiv.min.js
+
+[ 2016-09-14T10:51:31+08:00 ] 61.160.224.144 /js/respond.min.js
+ERR: 非法操作:respond.min.js
+
+[ 2016-09-14T10:51:31+08:00 ] 61.160.224.144 /js/selectivizr-min.js
+ERR: 非法操作:selectivizr-min.js
+
+[ 2016-09-14T11:35:31+08:00 ] 61.160.224.135 /index.php/index.php/Readers.shtml
+ERR: 非法操作:Readers
+
+[ 2016-09-14T11:40:11+08:00 ] 61.160.224.135 /index.php/Readers/readers.html
+ERR: 非法操作:readers.html
+
+[ 2016-09-14T11:40:14+08:00 ] 61.160.224.135 /index.php/Readers/tags.html
+ERR: 非法操作:tags.html
+
+[ 2016-09-14T11:40:16+08:00 ] 61.160.224.135 /index.php/Readers/links.html
+ERR: 非法操作:links.html
+
+[ 2016-09-14T12:09:15+08:00 ] 61.160.224.135 /index.php/Base/isOnline
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000772s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000507s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000565s ]
+
+[ 2016-09-14T12:09:17+08:00 ] 61.160.224.135 /index.php/Base/isOnline
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000460s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2016-09-14T12:20:27+08:00 ] 61.160.224.145 /js/selectivizr-min.js
+ERR: 非法操作:selectivizr-min.js
+
+[ 2016-09-14T13:49:33+08:00 ] 61.160.224.135 /www.ice-breaker.cn/Public/Admin/ckfinder/ckfinder.html?type=Images&CKEditor=e_editor&CKEditorFuncNum=1&langCode=zh-cn
+ERR: 非法操作:Public
+
+[ 2016-09-14T14:08:28+08:00 ] 61.160.224.135 /__PUBLIC__/Admin/ckfinder/ckfinder.html?type=Images&CKEditor=e_editor&CKEditorFuncNum=1&langCode=zh-cn
+ERR: 非法操作:Admin
+

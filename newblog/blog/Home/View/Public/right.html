@@ -1,0 +1,27 @@
+
+	<div class="widget widget_sentence">
+      <h3>每日一句</h3>
+      <div class="widget-sentence-content">
+        <h4>2016年01月05日星期二</h4>
+        <p>Do not let what you cannot do interfere with what you can do.<br />
+          别让你不能做的事妨碍到你能做的事。（John Wooden）</p>
+      </div>
+    </div>
+    <div class="widget widget_hot">
+      <h3>热门文章</h3>
+      <ul>
+		<volist name="hotArticle" id="hotArticleArr">
+			<li>
+				<a href="article/{$hotArticleArr['a_id']}.html">  
+					<span class="thumbnail"><img class="thumb" data-original="____IMAGES____/excerpt.jpg" src="__IMAGES__/excerpt.jpg" alt=""></span>
+					<span class="text">{$hotArticleArr['a_title']}</span><span class="muted"><i class="glyphicon glyphicon-time"></i> {$hotArticleArr['create_time']}</span>
+					<p class="muted">
+						<i class="glyphicon glyphicon-eye-open"></i>
+						阅读:{$hotArticleArr['a_views']}
+					</p>
+				</a>
+			</li>
+		</volist>
+      </ul>
+    </div>
+  

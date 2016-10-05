@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="zh-CN">
+<include file="Public:head" />
+<body class="user-select">
+	<!-- 模态框（Modal） -->
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+						&times;
+					</button>
+					<h4 class="modal-title" id="myModalLabel">
+						请选择合适的区域作为头像
+					</h4>
+				</div>
+				<div class="modal-body">
+					<input type="hidden" id="x" name="x" />
+					<input type="hidden" id="y" name="y" />
+					<input type="hidden" id="w" name="w" />
+					<input type="hidden" id="h" name="h" />
+					<img id="element_id" src="" width="120px" height="120px">
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default cancel" data-dismiss="modal">取消</button>
+					<button type="button" class="btn btn-primary upload">上传头像</button>
+				</div>
+			</div><!-- /.modal-content -->
+		</div><!-- /.modal -->
+	</div>
+	<include file="Public:header"/>
+	<section class="container container-page">
+		<div class="pageside">
+			<div class="pagemenus">
+				<ul class="pagemenu">
+					<li><a href="http://www.ice-breaker.cn/user/set.html">个人设置</a></li>
+					<li><a href="http://www.ice-breaker.cn/user/password.html">密码修改</a></li>
+					<li><a href="http://www.ice-breaker.cn/user/notice.html">通知</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="alert user-alert" style="display:none">
+			<button type="button" class="close">&times;</button>
+			<span>个人资料修改成功</span>
+		</div>
+		<div class="content">
+			<header class="user-header">
+		      <h1 class="article-title">个人设置</h1>
+		    </header>
+			<div class="row">
+				<volist name="user" id="user">
+					<div class="col-md-8">
+						<form action="###" class="form-horizontal" role="form" id="user-form">
+								<div class="form-group">
+									<label for="name" class="col-sm-3 control-label">用户昵称</label>
+									<div class="col-sm-9">
+										<input type="text" class="form-control" id="name" value="{$user['m_name']}" placeholder="支持中文、字母、数字、'_'的组合 , 4-20个字符">
+										<span style="color:red;display:none">请输入中文、字母、数字、\'\_\'的组合 , 4-20个字符</span>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="password" class="col-sm-3 control-label">qq</label>
+									<div class="col-sm-9">
+										<input type="text" class="form-control" id="qq" value="{$user['qq']}" placeholder="qq">
+										<span style="color:red;display:none">请输入合法的qq</span>
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="password" class="col-sm-3 control-label">邮箱</label>
+									<div class="col-sm-9">
+										<input type="text" class="form-control" id="email" value="{$user['email']}" placeholder="邮箱">
+										<span style="color:red;display:none">请输入合法的邮箱</span>
+									</div>
+								</div>							
+								<div class="form-group">
+									<div class="col-sm-offset-3 col-sm-9">
+										<button type="button" class="btn btn-success info-btn">确认修改</button>
+									</div>
+								</div>
+							
+						</form>
+					</div>
+					<div class="col-md-4">
+						<div class="col-sm-6">
+							<if condition="$user['facesrc'] eq '' ">
+									<img class="" height="128" width="128" src="__IMAGES__/icon/icon.png" id="img" alt="Responsive image">
+								<else /> 
+									<img class="" height="128" width="128" src="{$user['facesrc']}" id="img" alt="Responsive image">
+							</if>
+							
+						</div>
+						<div class="col-sm-6 info">
+							<input type="file" name="file" id="file" onchane="show();" value=""style="display:none"/>
+							<button type="button" class="btn btn-default upload-btn">上传头像</button>
+							<p>从电脑中选择图片上传, 图像大小不要超过 2 MB，长宽不要超过 3000 px</p>
+						</div>
+						<span class="status" style="display:none;">上传中...</span>
+					</div>
+				</volist>
+			</div>
+		</div>
+	</section>
+	<!--登录注册开始-->
+		<include file="Public:loginReg"/>
+	<!--登录注册结束-->
+	<!--页脚部分开始-->
+	<include file="Public:footer"/>
+	<!--页脚部分结束-->
+	
+	<!--about部分开始-->
+	<include file="Public:about"/>
+	<!--about部分结束-->
+	
+
+	<script type="text/javascript">
+		var thinkphp = {
+			'url':'__ROOT__/index.php/'
+		}
+	</script>
+<script src="__JS__/bootstrap.min.js"></script> 
+<script src="__JS__/jquery.ias.js"></script> 
+<script src="__JS__/scripts.js"></script>
+<!--上传裁剪-->
+<!--<script src="__JS__/jquery-1.5.1.min.js"></script>-->
+<!--<script src="__JS__/jquery.min.js"></script>-->
+<script src="__JS__/jquery.Jcrop.js"></script>
+<!--上传裁剪-->
+
+<script src="__JS__/index.js"></script>
+<script src="__JS__/user.js"></script>
+
+
+
+</body>
+</html>

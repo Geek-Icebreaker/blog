@@ -1,0 +1,521 @@
+[ 2016-08-18T00:08:17+08:00 ] ::1 /thinkphp/index.php/Home/Index/login.shtml
+ERR: 无法加载控制器:Home
+
+[ 2016-08-18T00:08:27+08:00 ] ::1 /thinkphp/index.php/Home/Index/
+ERR: 无法加载控制器:Home
+
+[ 2016-08-18T00:31:07+08:00 ] ::1 /thinkphp/index.php/?page=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-18T00:36:00+08:00 ] ::1 /thinkphp/index.php/category.html
+ERR: 无法加载控制器:Category.html
+
+[ 2016-08-18T00:37:50+08:00 ] ::1 /thinkphp/index.php/?page=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-18T00:37:51+08:00 ] ::1 /thinkphp/index.php/?page=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-18T00:37:52+08:00 ] ::1 /thinkphp/index.php/?page=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-18T00:37:53+08:00 ] ::1 /thinkphp/index.php/?page=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-18T00:38:00+08:00 ] ::1 /thinkphp/index.php/?page=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-18T00:39:03+08:00 ] ::1 /thinkphp/index.php/category.html
+ERR: 无法加载控制器:Category.html
+
+[ 2016-08-18T00:39:21+08:00 ] ::1 /thinkphp/index.php/category.html
+ERR: 无法加载控制器:Category.html
+
+[ 2016-08-18T21:02:04+08:00 ] ::1 /thinkphp/index.php/tags.html
+ERR: 无法加载控制器:Tags.html
+
+[ 2016-08-18T21:02:30+08:00 ] ::1 /thinkphp/index.php/category.html
+ERR: 无法加载控制器:Category.html
+
+[ 2016-08-18T21:05:47+08:00 ] ::1 /thinkphp/index.php/index.html
+ERR: 无法加载控制器:Index.html
+
+[ 2016-08-18T21:06:13+08:00 ] ::1 /thinkphp/index.php/Home/Category.shtml
+ERR: 无法加载控制器:Home
+
+[ 2016-08-18T21:06:39+08:00 ] ::1 /thinkphp/index.php/index.html
+ERR: 无法加载控制器:Index.html
+
+[ 2016-08-18T21:06:57+08:00 ] ::1 /thinkphp/index.php/index.html
+ERR: 无法加载控制器:Index.html
+
+[ 2016-08-18T21:10:43+08:00 ] ::1 /thinkphp/index.php/readers.html
+ERR: 无法加载控制器:Readers.html
+
+[ 2016-08-18T21:12:50+08:00 ] ::1 /thinkphp/index.php/tags.html
+ERR: 无法加载控制器:Tags.html
+
+[ 2016-08-18T21:13:18+08:00 ] ::1 /thinkphp/index.php/tags.html
+ERR: 无法加载控制器:Tags.html
+
+[ 2016-08-18T21:13:20+08:00 ] ::1 /thinkphp/index.php/readers.html
+ERR: 无法加载控制器:Readers.html
+
+[ 2016-08-18T21:13:22+08:00 ] ::1 /thinkphp/index.php/links.html
+ERR: 无法加载控制器:Links.html
+
+[ 2016-08-18T21:13:48+08:00 ] ::1 /thinkphp/index.php/article.html
+ERR: 无法加载控制器:Article.html
+
+[ 2016-08-18T21:14:32+08:00 ] ::1 /thinkphp/index.php/links.html
+ERR: 无法加载控制器:Links.html
+
+[ 2016-08-18T21:15:01+08:00 ] ::1 /thinkphp/index.php/links.html
+ERR: 无法加载控制器:Links.html
+
+[ 2016-08-18T21:15:48+08:00 ] ::1 /thinkphp/index.php/links.html
+ERR: 无法加载控制器:Links.html
+
+[ 2016-08-18T21:15:51+08:00 ] ::1 /thinkphp/index.php/readers.html
+ERR: 无法加载控制器:Readers.html
+
+[ 2016-08-18T21:15:54+08:00 ] ::1 /thinkphp/index.php/tags.html
+ERR: 无法加载控制器:Tags.html
+
+[ 2016-08-18T21:15:59+08:00 ] ::1 /thinkphp/index.php/readers.html
+ERR: 无法加载控制器:Readers.html
+
+[ 2016-08-18T21:16:18+08:00 ] ::1 /thinkphp/index.php/links.html
+ERR: 无法加载控制器:Links.html
+
+[ 2016-08-18T21:16:21+08:00 ] ::1 /thinkphp/index.php/tags.html
+ERR: 无法加载控制器:Tags.html
+
+[ 2016-08-18T21:17:14+08:00 ] ::1 /thinkphp/index.php/tags.html
+ERR: 无法加载控制器:Tags.html
+
+[ 2016-08-18T21:17:22+08:00 ] ::1 /thinkphp/index.php/links.html
+ERR: 无法加载控制器:Links.html
+
+[ 2016-08-18T21:18:08+08:00 ] ::1 /thinkphp/index.php/links.html
+ERR: 无法加载控制器:Links.html
+
+[ 2016-08-18T21:18:18+08:00 ] ::1 /thinkphp/index.php/tags.html
+ERR: 无法加载控制器:Tags.html
+
+[ 2016-08-18T21:18:20+08:00 ] ::1 /thinkphp/index.php/readers.html
+ERR: 无法加载控制器:Readers.html
+
+[ 2016-08-18T21:20:03+08:00 ] ::1 /thinkphp/index.php/article.html
+ERR: 无法加载控制器:Article.html
+
+[ 2016-08-18T21:41:38+08:00 ] ::1 /thinkphp/index.php/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `blog_members` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `blog_members` WHERE `name` = 'root' AND `password` = '066eca7e6ec134fb5b064223345e830d' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-18T21:42:49+08:00 ] ::1 /thinkphp/index.php/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_members` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `blog_members` WHERE `name` = 'root1341234' AND `password` = '06885a6dad019e0784b187ec27f73359' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-18T21:43:59+08:00 ] ::1 /thinkphp/index.php/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_members` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `blog_members` WHERE `name` = 'root' AND `password` = '066eca7e6ec134fb5b064223345e830d' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-18T21:45:03+08:00 ] ::1 /thinkphp/index.php/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_members` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `blog_members` WHERE `name` = '如来' AND `password` = '066eca7e6ec134fb5b064223345e830d' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-18T21:46:10+08:00 ] ::1 /thinkphp/index.php/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_members` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blog_members` WHERE `name` = 'root' AND `password` = '066eca7e6ec134fb5b064223345e830d' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-18T21:46:18+08:00 ] ::1 /thinkphp/index.php/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `blog_members` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blog_members` WHERE `name` = '如来' AND `password` = '066eca7e6ec134fb5b064223345e830d' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-18T21:53:12+08:00 ] ::1 /thinkphp/index.php/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `blog_members` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blog_members` WHERE `name` = '如来' AND `password` = '066eca7e6ec134fb5b064223345e830d' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-18T22:07:33+08:00 ] ::1 /thinkphp/index.php/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_members` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blog_members` WHERE `name` = 'root' AND `password` = '066eca7e6ec134fb5b064223345e830d' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-18T22:13:27+08:00 ] ::1 /thinkphp/index.php/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `blog_members` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blog_members` WHERE `name` = '如来' AND `password` = '066eca7e6ec134fb5b064223345e830d' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-18T22:14:05+08:00 ] ::1 /thinkphp/index.php/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_members` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blog_members` WHERE `name` = '如来' AND `password` = '066eca7e6ec134fb5b064223345e830d' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-18T22:16:11+08:00 ] ::1 /thinkphp/index.php/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `blog_members` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `blog_members` WHERE `name` = '如来' AND `password` = '066eca7e6ec134fb5b064223345e830d' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-18T22:19:40+08:00 ] ::1 /thinkphp/index.php/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_members` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blog_members` WHERE `name` = 'root' AND `password` = '066eca7e6ec134fb5b064223345e830d' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-18T22:23:28+08:00 ] ::1 /thinkphp/index.php/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_members` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blog_members` WHERE `name` = '' AND `password` = 'd41d8cd98f00b204e9800998ecf8427e' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-18T22:23:37+08:00 ] ::1 /thinkphp/index.php/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_members` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blog_members` WHERE `name` = '' AND `password` = 'd41d8cd98f00b204e9800998ecf8427e' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-18T22:32:42+08:00 ] ::1 /thinkphp/index.php/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_members` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blog_members` WHERE `name` = 'root' AND `password` = '066eca7e6ec134fb5b064223345e830d' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-18T22:40:27+08:00 ] ::1 /thinkphp/index.php/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_members` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blog_members` WHERE `name` = '' AND `password` = 'd41d8cd98f00b204e9800998ecf8427e' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-18T23:06:59+08:00 ] ::1 /thinkphp/index.php/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_members` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `blog_members` WHERE `name` = 'root' AND `password` = '066eca7e6ec134fb5b064223345e830d' LIMIT 1   [ RunTime:0.0100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-18T23:11:18+08:00 ] ::1 /thinkphp/index.php/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_members` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `blog_members` WHERE `name` = 'root' AND `password` = '066eca7e6ec134fb5b064223345e830d' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-18T23:15:48+08:00 ] ::1 /thinkphp/index.php/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_members` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `blog_members` WHERE `name` = '如来' AND `password` = '066eca7e6ec134fb5b064223345e830d' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-18T23:16:36+08:00 ] ::1 /thinkphp/index.php/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `blog_members` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blog_members` WHERE `name` = '如来' AND `password` = '066eca7e6ec134fb5b064223345e830d' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-18T23:18:57+08:00 ] ::1 /thinkphp/index.php/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `blog_members` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `blog_members` WHERE `name` = 'root' AND `password` = '066eca7e6ec134fb5b064223345e830d' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-18T23:30:55+08:00 ] ::1 /thinkphp/index.php/article.html
+ERR: 无法加载控制器:Article.html
+
+[ 2016-08-18T23:31:03+08:00 ] ::1 /thinkphp/index.php/article.html
+ERR: 无法加载控制器:Article.html
+
+[ 2016-08-18T23:31:51+08:00 ] ::1 /thinkphp/index.php/article.html
+ERR: 无法加载控制器:Article.html
+
+[ 2016-08-18T23:32:11+08:00 ] ::1 /thinkphp/index.php/article.html
+ERR: 无法加载控制器:Article.html
+
+[ 2016-08-18T23:32:28+08:00 ] ::1 /thinkphp/index.php/article.html
+ERR: 无法加载控制器:Article.html
+
+[ 2016-08-18T23:32:30+08:00 ] ::1 /thinkphp/index.php/article.html
+ERR: 无法加载控制器:Article.html
+
+[ 2016-08-18T23:32:46+08:00 ] ::1 /thinkphp/index.php/article.html
+ERR: 无法加载控制器:Article.html
+
+[ 2016-08-18T23:32:48+08:00 ] ::1 /thinkphp/index.php/article.html
+ERR: 无法加载控制器:Article.html
+
+[ 2016-08-18T23:32:53+08:00 ] ::1 /thinkphp/index.php/article.html
+ERR: 无法加载控制器:Article.html
+
+[ 2016-08-18T23:34:02+08:00 ] ::1 /thinkphp/index.php/article.html
+ERR: 无法加载控制器:Article.html
+
+[ 2016-08-18T23:34:06+08:00 ] ::1 /thinkphp/index.php/article.html
+ERR: 无法加载控制器:Article.html
+
+[ 2016-08-18T23:34:30+08:00 ] ::1 /thinkphp/index.php/article.html
+ERR: 无法加载控制器:Article.html
+
+[ 2016-08-18T23:34:30+08:00 ] ::1 /thinkphp/index.php/article.html
+ERR: 无法加载控制器:Article.html
+
+[ 2016-08-18T23:34:36+08:00 ] ::1 /thinkphp/index.php/article.html
+ERR: 无法加载控制器:Article.html
+
+[ 2016-08-18T23:34:40+08:00 ] ::1 /thinkphp/index.php/article.html
+ERR: 无法加载控制器:Article.html
+
+[ 2016-08-18T23:34:59+08:00 ] ::1 /thinkphp/index.php/article.html
+ERR: 无法加载控制器:Article.html
+
+[ 2016-08-18T23:35:07+08:00 ] ::1 /thinkphp/index.php/article.html
+ERR: 无法加载控制器:Article.html
+
+[ 2016-08-18T23:39:22+08:00 ] ::1 /thinkphp/index.php/article.html
+ERR: 无法加载控制器:Article.html
+
+[ 2016-08-18T23:40:09+08:00 ] ::1 /thinkphp/index.php/readers.html
+ERR: 无法加载控制器:Readers.html
+
+[ 2016-08-18T23:40:11+08:00 ] ::1 /thinkphp/index.php/links.html
+ERR: 无法加载控制器:Links.html
+
+[ 2016-08-18T23:40:17+08:00 ] ::1 /thinkphp/index.php/readers.html
+ERR: 无法加载控制器:Readers.html
+
+[ 2016-08-18T23:40:19+08:00 ] ::1 /thinkphp/index.php/tags.html
+ERR: 无法加载控制器:Tags.html
+
+[ 2016-08-18T23:42:39+08:00 ] ::1 /thinkphp/index.php/Index/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `blog_members` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `blog_members` WHERE `name` = 'root' AND `password` = '066eca7e6ec134fb5b064223345e830d' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-18T23:46:27+08:00 ] ::1 /thinkphp/index.php/Index/reg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-18T23:47:03+08:00 ] ::1 /thinkphp/index.php/Index/reg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_members` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: validate E:\phpstudy\WWW\thinkphp\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpstudy\WWW\thinkphp\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+
+[ 2016-08-18T23:51:29+08:00 ] ::1 /thinkphp/index.php/Index/reg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_members` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: validate E:\phpstudy\WWW\thinkphp\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpstudy\WWW\thinkphp\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `blog_members` (`name`,`password`,`email`,`qq`,`reg_time`) VALUES ('icebreaker','066eca7e6ec134fb5b064223345e830d','752756172@qq.com','757256172','0') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-18T23:53:55+08:00 ] ::1 /thinkphp/index.php/Index/reg
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_members` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: validate E:\phpstudy\WWW\thinkphp\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpstudy\WWW\thinkphp\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `blog_members` (`name`,`password`,`email`,`qq`,`reg_time`) VALUES ('icebreaker','066eca7e6ec134fb5b064223345e830d','7527561722@qq.com','752756172','1471535634') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

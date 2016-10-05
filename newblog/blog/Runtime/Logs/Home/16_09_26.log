@@ -1,0 +1,225 @@
+[ 2016-09-26T03:51:27+08:00 ] 220.181.158.106 /js/html5shiv.min.js
+ERR: 非法操作:html5shiv.min.js
+
+[ 2016-09-26T03:51:27+08:00 ] 220.181.158.106 /js/respond.min.js
+ERR: 非法操作:respond.min.js
+
+[ 2016-09-26T03:51:27+08:00 ] 220.181.158.106 /js/selectivizr-min.js
+ERR: 非法操作:selectivizr-min.js
+
+[ 2016-09-26T04:09:39+08:00 ] 220.181.108.166 /docs/README.TXT
+ERR: 非法操作:README.TXT
+
+[ 2016-09-26T04:24:46+08:00 ] 203.208.60.136 /Admin/login.php
+ERR: 非法操作:login.php
+
+[ 2016-09-26T10:02:15+08:00 ] 114.231.7.35 /index.php/index.php/Readers.html
+ERR: 非法操作:Readers
+
+[ 2016-09-26T11:48:41+08:00 ] 218.30.118.100 /js/html5shiv.min.js
+ERR: 非法操作:html5shiv.min.js
+
+[ 2016-09-26T11:48:41+08:00 ] 218.30.118.100 /js/respond.min.js
+ERR: 非法操作:respond.min.js
+
+[ 2016-09-26T11:48:41+08:00 ] 218.30.118.100 /js/selectivizr-min.js
+ERR: 非法操作:selectivizr-min.js
+
+[ 2016-09-26T15:42:12+08:00 ] 114.231.7.35 /article/front.html
+ERR: 非法操作:front
+
+[ 2016-09-26T16:25:43+08:00 ] 114.231.7.35 /front.html
+ERR: 1052:Column 'cate_id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT `a_id`,`a_title`,`a_views`,`create_time`,bac.cate_name FROM blog_article ba left JOIN blog_article_cate bac on ba.cate_id = bac.cate_id  WHERE ( cate_id=1 ) ORDER BY create_time desc LIMIT 0,8  
+ERR: 1052:Column 'cate_id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT `a_id`,`a_title`,`a_views`,`create_time`,bac.cate_name FROM blog_article ba left JOIN blog_article_cate bac on ba.cate_id = bac.cate_id  WHERE ( cate_id=1 ) ORDER BY create_time desc LIMIT 0,8  
+
+[ 2016-09-26T16:26:36+08:00 ] 114.231.7.35 /front.html
+ERR: 1052:Column 'cate_id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT `a_id`,`a_title`,`a_views`,`create_time`,bac.cate_name FROM blog_article ba left JOIN blog_article_cate bac on ba.cate_id = bac.cate_id  WHERE ( cate_id=1 ) ORDER BY create_time desc LIMIT 0,8  
+ERR: 1052:Column 'cate_id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT `a_id`,`a_title`,`a_views`,`create_time`,bac.cate_name FROM blog_article ba left JOIN blog_article_cate bac on ba.cate_id = bac.cate_id  WHERE ( cate_id=1 ) ORDER BY create_time desc LIMIT 0,8  
+
+[ 2016-09-26T16:26:36+08:00 ] 114.231.7.35 /front.html
+ERR: 1052:Column 'cate_id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT `a_id`,`a_title`,`a_views`,`create_time`,bac.cate_name FROM blog_article ba left JOIN blog_article_cate bac on ba.cate_id = bac.cate_id  WHERE ( cate_id=1 ) ORDER BY create_time desc LIMIT 0,8  
+ERR: 1052:Column 'cate_id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT `a_id`,`a_title`,`a_views`,`create_time`,bac.cate_name FROM blog_article ba left JOIN blog_article_cate bac on ba.cate_id = bac.cate_id  WHERE ( cate_id=1 ) ORDER BY create_time desc LIMIT 0,8  
+
+[ 2016-09-26T16:26:40+08:00 ] 114.231.7.35 /front.html
+ERR: 1052:Column 'cate_id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT `a_id`,`a_title`,`a_views`,`create_time`,bac.cate_name FROM blog_article ba left JOIN blog_article_cate bac on ba.cate_id = bac.cate_id  WHERE ( cate_id=1 ) ORDER BY create_time desc LIMIT 0,8  
+ERR: 1052:Column 'cate_id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT `a_id`,`a_title`,`a_views`,`create_time`,bac.cate_name FROM blog_article ba left JOIN blog_article_cate bac on ba.cate_id = bac.cate_id  WHERE ( cate_id=1 ) ORDER BY create_time desc LIMIT 0,8  
+
+[ 2016-09-26T16:26:54+08:00 ] 114.231.7.35 /back.html
+ERR: 1052:Column 'cate_id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT `a_id`,`a_title`,`a_views`,`create_time`,bac.cate_name FROM blog_article ba left JOIN blog_article_cate bac on ba.cate_id = bac.cate_id  WHERE ( cate_id=2 ) ORDER BY create_time desc LIMIT 0,8  
+ERR: 1052:Column 'cate_id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT `a_id`,`a_title`,`a_views`,`create_time`,bac.cate_name FROM blog_article ba left JOIN blog_article_cate bac on ba.cate_id = bac.cate_id  WHERE ( cate_id=2 ) ORDER BY create_time desc LIMIT 0,8  
+
+[ 2016-09-26T16:26:56+08:00 ] 114.231.7.35 /front.html
+ERR: 1052:Column 'cate_id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT `a_id`,`a_title`,`a_views`,`create_time`,bac.cate_name FROM blog_article ba left JOIN blog_article_cate bac on ba.cate_id = bac.cate_id  WHERE ( cate_id=1 ) ORDER BY create_time desc LIMIT 0,8  
+ERR: 1052:Column 'cate_id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT `a_id`,`a_title`,`a_views`,`create_time`,bac.cate_name FROM blog_article ba left JOIN blog_article_cate bac on ba.cate_id = bac.cate_id  WHERE ( cate_id=1 ) ORDER BY create_time desc LIMIT 0,8  
+
+[ 2016-09-26T16:29:20+08:00 ] 114.231.7.35 /back.html
+ERR: 1052:Column 'cate_id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT `a_id`,`a_title`,`a_views`,`create_time`,bac.cate_name FROM blog_article ba left JOIN blog_article_cate bac on ba.cate_id = bac.cate_id  WHERE ( cate_id=2 ) ORDER BY create_time desc LIMIT 0,8  
+ERR: 1052:Column 'cate_id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT `a_id`,`a_title`,`a_views`,`create_time`,bac.cate_name FROM blog_article ba left JOIN blog_article_cate bac on ba.cate_id = bac.cate_id  WHERE ( cate_id=2 ) ORDER BY create_time desc LIMIT 0,8  
+
+[ 2016-09-26T16:29:22+08:00 ] 114.231.7.35 /back.html
+ERR: 1052:Column 'cate_id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT `a_id`,`a_title`,`a_views`,`create_time`,bac.cate_name FROM blog_article ba left JOIN blog_article_cate bac on ba.cate_id = bac.cate_id  WHERE ( cate_id=2 ) ORDER BY create_time desc LIMIT 0,8  
+ERR: 1052:Column 'cate_id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT `a_id`,`a_title`,`a_views`,`create_time`,bac.cate_name FROM blog_article ba left JOIN blog_article_cate bac on ba.cate_id = bac.cate_id  WHERE ( cate_id=2 ) ORDER BY create_time desc LIMIT 0,8  
+
+[ 2016-09-26T16:29:24+08:00 ] 114.231.7.35 /front.html
+ERR: 1052:Column 'cate_id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT `a_id`,`a_title`,`a_views`,`create_time`,bac.cate_name FROM blog_article ba left JOIN blog_article_cate bac on ba.cate_id = bac.cate_id  WHERE ( cate_id=1 ) ORDER BY create_time desc LIMIT 0,8  
+ERR: 1052:Column 'cate_id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT `a_id`,`a_title`,`a_views`,`create_time`,bac.cate_name FROM blog_article ba left JOIN blog_article_cate bac on ba.cate_id = bac.cate_id  WHERE ( cate_id=1 ) ORDER BY create_time desc LIMIT 0,8  
+
+[ 2016-09-26T16:37:32+08:00 ] 114.231.7.35 /front.html
+ERR: 1052:Column 'cate_id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT `a_id`,`a_title`,`a_views`,`create_time`,bac.cate_name FROM blog_article ba left JOIN blog_article_cate bac on ba.cate_id = bac.cate_id  WHERE ( cate_id=1 ) ORDER BY create_time desc LIMIT 0,8  
+ERR: 1052:Column 'cate_id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT `a_id`,`a_title`,`a_views`,`create_time`,bac.cate_name FROM blog_article ba left JOIN blog_article_cate bac on ba.cate_id = bac.cate_id  WHERE ( cate_id=1 ) ORDER BY create_time desc LIMIT 0,8  
+
+[ 2016-09-26T16:37:53+08:00 ] 114.231.7.35 /front.html
+ERR: 1052:Column 'cate_id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT `a_id`,`a_title`,`a_views`,`create_time`,bac.cate_name FROM blog_article ba left JOIN blog_article_cate bac on ba.cate_id = bac.cate_id  WHERE ( cate_id=1 ) ORDER BY create_time desc LIMIT 0,8  
+ERR: 1052:Column 'cate_id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT `a_id`,`a_title`,`a_views`,`create_time`,bac.cate_name FROM blog_article ba left JOIN blog_article_cate bac on ba.cate_id = bac.cate_id  WHERE ( cate_id=1 ) ORDER BY create_time desc LIMIT 0,8  
+
+[ 2016-09-26T16:37:54+08:00 ] 114.231.7.35 /front.html
+ERR: 1052:Column 'cate_id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT `a_id`,`a_title`,`a_views`,`create_time`,bac.cate_name FROM blog_article ba left JOIN blog_article_cate bac on ba.cate_id = bac.cate_id  WHERE ( cate_id=1 ) ORDER BY create_time desc LIMIT 0,8  
+ERR: 1052:Column 'cate_id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT `a_id`,`a_title`,`a_views`,`create_time`,bac.cate_name FROM blog_article ba left JOIN blog_article_cate bac on ba.cate_id = bac.cate_id  WHERE ( cate_id=1 ) ORDER BY create_time desc LIMIT 0,8  
+
+[ 2016-09-26T17:03:06+08:00 ] 118.250.175.159 /js/jquery-1.11.1.min.js
+ERR: 非法操作:jquery-1.11.1.min.js
+
+[ 2016-09-26T17:03:06+08:00 ] 118.250.175.159 /js/respond.min.js
+ERR: 非法操作:respond.min.js
+
+[ 2016-09-26T17:03:06+08:00 ] 118.250.175.159 /js/html5shiv.min.js
+ERR: 非法操作:html5shiv.min.js
+
+[ 2016-09-26T17:03:06+08:00 ] 118.250.175.159 /js/selectivizr-min.js
+ERR: 非法操作:selectivizr-min.js
+
+[ 2016-09-26T17:05:42+08:00 ] 118.250.175.159 /js/html5shiv.min.js
+ERR: 非法操作:html5shiv.min.js
+
+[ 2016-09-26T17:05:42+08:00 ] 118.250.175.159 /js/jquery-1.11.1.min.js
+ERR: 非法操作:jquery-1.11.1.min.js
+
+[ 2016-09-26T17:05:42+08:00 ] 118.250.175.159 /js/respond.min.js
+ERR: 非法操作:respond.min.js
+
+[ 2016-09-26T17:05:42+08:00 ] 118.250.175.159 /js/selectivizr-min.js
+ERR: 非法操作:selectivizr-min.js
+
+[ 2016-09-26T17:05:42+08:00 ] 118.250.175.159 /js/selectivizr-min.js?897&x9wj=0i
+ERR: 非法操作:selectivizr-min.js
+
+[ 2016-09-26T17:05:54+08:00 ] 118.250.175.159 /js/html5shiv.min.js
+ERR: 非法操作:html5shiv.min.js
+
+[ 2016-09-26T17:05:54+08:00 ] 118.250.175.159 /js/respond.min.js
+ERR: 非法操作:respond.min.js
+
+[ 2016-09-26T17:05:54+08:00 ] 118.250.175.159 /js/jquery-1.11.1.min.js
+ERR: 非法操作:jquery-1.11.1.min.js
+
+[ 2016-09-26T17:05:55+08:00 ] 118.250.175.159 /js/selectivizr-min.js
+ERR: 非法操作:selectivizr-min.js
+
+[ 2016-09-26T17:06:00+08:00 ] 118.250.175.159 /js/html5shiv.min.js
+ERR: 非法操作:html5shiv.min.js
+
+[ 2016-09-26T17:06:00+08:00 ] 118.250.175.159 /js/jquery-1.11.1.min.js
+ERR: 非法操作:jquery-1.11.1.min.js
+
+[ 2016-09-26T17:06:00+08:00 ] 118.250.175.159 /js/selectivizr-min.js
+ERR: 非法操作:selectivizr-min.js
+
+[ 2016-09-26T17:06:00+08:00 ] 118.250.175.159 /js/respond.min.js
+ERR: 非法操作:respond.min.js
+
+[ 2016-09-26T19:18:07+08:00 ] 121.201.3.223 /index.php/index.php/Readers.html
+ERR: 非法操作:Readers
+
+[ 2016-09-26T19:29:35+08:00 ] 121.201.3.223 /article/front.html
+ERR: 非法操作:front
+
+[ 2016-09-26T19:29:39+08:00 ] 121.201.3.223 /article/front.html
+ERR: 非法操作:front
+
+[ 2016-09-26T19:32:08+08:00 ] 121.201.3.223 /index.php/index.php/Readers.html
+ERR: 非法操作:Readers
+
+[ 2016-09-26T19:33:44+08:00 ] 121.201.3.223 /index.php/index.php/Readers.html
+ERR: 非法操作:Readers
+
+[ 2016-09-26T19:36:52+08:00 ] 121.201.3.223 /p/2.html
+ERR: 非法操作:2
+
+[ 2016-09-26T19:38:22+08:00 ] 121.201.3.223 /article/category.html
+ERR: 非法操作:category
+
+[ 2016-09-26T19:38:25+08:00 ] 121.201.3.223 /article/safe.html
+ERR: 非法操作:safe
+
+[ 2016-09-26T19:39:03+08:00 ] 121.201.3.223 /article/front.html
+ERR: 非法操作:front
+
+[ 2016-09-26T19:41:17+08:00 ] 121.201.3.223 /article/front.html
+ERR: 非法操作:front
+
+[ 2016-09-26T19:43:38+08:00 ] 121.201.3.223 /article/front.html
+ERR: 非法操作:front
+
+[ 2016-09-26T19:43:41+08:00 ] 121.201.3.223 /article/links.html
+ERR: 非法操作:links
+
+[ 2016-09-26T20:51:39+08:00 ] 121.201.3.223 /article/front.html
+ERR: 非法操作:front
+
+[ 2016-09-26T21:42:10+08:00 ] 121.201.3.223 /
+ERR: 1054:Unknown column 'bac.cate_name' in 'field list'
+ [ SQL语句 ] : SELECT ba.a_id,ba.a_title,ba.a_views,ba.create_time,bac.cate_name FROM blog_comment bc left JOIN blog_article ba on ba.cate_id = bc.aid left JOIN blog_article_cate on bac.cate_id = bc.cate_id  ORDER BY create_time desc LIMIT 0,8  
+ERR: 1054:Unknown column 'bac.cate_name' in 'field list'
+ [ SQL语句 ] : SELECT ba.a_id,ba.a_title,ba.a_views,ba.create_time,bac.cate_name FROM blog_comment bc left JOIN blog_article ba on ba.cate_id = bc.aid left JOIN blog_article_cate on bac.cate_id = bc.cate_id  ORDER BY create_time desc LIMIT 0,8  
+
+[ 2016-09-26T21:42:13+08:00 ] 121.201.3.223 /
+ERR: 1054:Unknown column 'bac.cate_name' in 'field list'
+ [ SQL语句 ] : SELECT ba.a_id,ba.a_title,ba.a_views,ba.create_time,bac.cate_name FROM blog_comment bc left JOIN blog_article ba on ba.cate_id = bc.aid left JOIN blog_article_cate on bac.cate_id = bc.cate_id  ORDER BY create_time desc LIMIT 0,8  
+ERR: 1054:Unknown column 'bac.cate_name' in 'field list'
+ [ SQL语句 ] : SELECT ba.a_id,ba.a_title,ba.a_views,ba.create_time,bac.cate_name FROM blog_comment bc left JOIN blog_article ba on ba.cate_id = bc.aid left JOIN blog_article_cate on bac.cate_id = bc.cate_id  ORDER BY create_time desc LIMIT 0,8  
+
+[ 2016-09-26T21:42:13+08:00 ] 121.201.3.223 /
+ERR: 1054:Unknown column 'bac.cate_name' in 'field list'
+ [ SQL语句 ] : SELECT ba.a_id,ba.a_title,ba.a_views,ba.create_time,bac.cate_name FROM blog_comment bc left JOIN blog_article ba on ba.cate_id = bc.aid left JOIN blog_article_cate on bac.cate_id = bc.cate_id  ORDER BY create_time desc LIMIT 0,8  
+ERR: 1054:Unknown column 'bac.cate_name' in 'field list'
+ [ SQL语句 ] : SELECT ba.a_id,ba.a_title,ba.a_views,ba.create_time,bac.cate_name FROM blog_comment bc left JOIN blog_article ba on ba.cate_id = bc.aid left JOIN blog_article_cate on bac.cate_id = bc.cate_id  ORDER BY create_time desc LIMIT 0,8  
+
+[ 2016-09-26T21:44:00+08:00 ] 121.201.3.223 /
+ERR: 1054:Unknown column 'bac.cate_name' in 'field list'
+ [ SQL语句 ] : SELECT ba.a_id,ba.a_title,ba.a_views,ba.create_time,bac.cate_name FROM blog_comment bc left JOIN blog_article ba on ba.a_id = bc.aid left JOIN blog_article_cate on bac.cate_id = bc.cate_id  ORDER BY create_time desc LIMIT 0,8  
+ERR: 1054:Unknown column 'bac.cate_name' in 'field list'
+ [ SQL语句 ] : SELECT ba.a_id,ba.a_title,ba.a_views,ba.create_time,bac.cate_name FROM blog_comment bc left JOIN blog_article ba on ba.a_id = bc.aid left JOIN blog_article_cate on bac.cate_id = bc.cate_id  ORDER BY create_time desc LIMIT 0,8  
+
+[ 2016-09-26T21:44:01+08:00 ] 121.201.3.223 /
+ERR: 1054:Unknown column 'bac.cate_name' in 'field list'
+ [ SQL语句 ] : SELECT ba.a_id,ba.a_title,ba.a_views,ba.create_time,bac.cate_name FROM blog_comment bc left JOIN blog_article ba on ba.a_id = bc.aid left JOIN blog_article_cate on bac.cate_id = bc.cate_id  ORDER BY create_time desc LIMIT 0,8  
+ERR: 1054:Unknown column 'bac.cate_name' in 'field list'
+ [ SQL语句 ] : SELECT ba.a_id,ba.a_title,ba.a_views,ba.create_time,bac.cate_name FROM blog_comment bc left JOIN blog_article ba on ba.a_id = bc.aid left JOIN blog_article_cate on bac.cate_id = bc.cate_id  ORDER BY create_time desc LIMIT 0,8  
+
+[ 2016-09-26T22:51:36+08:00 ] 116.255.233.169 /article/article.html
+ERR: 非法操作:article
+

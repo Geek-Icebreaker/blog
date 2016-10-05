@@ -1,0 +1,57 @@
+[ 2016-09-28T03:11:35+08:00 ] 220.181.108.175 /Home/liuyan.php
+ERR: 非法操作:liuyan.php
+
+[ 2016-09-28T03:58:50+08:00 ] 220.181.158.106 /js/html5shiv.min.js
+ERR: 非法操作:html5shiv.min.js
+
+[ 2016-09-28T03:58:51+08:00 ] 220.181.158.106 /js/respond.min.js
+ERR: 非法操作:respond.min.js
+
+[ 2016-09-28T03:58:51+08:00 ] 220.181.158.106 /js/selectivizr-min.js
+ERR: 非法操作:selectivizr-min.js
+
+[ 2016-09-28T04:24:02+08:00 ] 203.208.60.131 /Admin/login.php
+ERR: 非法操作:login.php
+
+[ 2016-09-28T09:43:52+08:00 ] 121.232.54.145 /article/links.html
+ERR: 非法操作:links
+
+[ 2016-09-28T11:15:59+08:00 ] 116.255.233.169 /index.php/Index/article/10.html
+ERR: 非法操作:article
+
+[ 2016-09-28T11:16:10+08:00 ] 116.255.233.169 /index.php/Index/article/14.html
+ERR: 非法操作:article
+
+[ 2016-09-28T12:04:17+08:00 ] 218.30.118.100 /js/html5shiv.min.js
+ERR: 非法操作:html5shiv.min.js
+
+[ 2016-09-28T12:04:17+08:00 ] 218.30.118.100 /js/respond.min.js
+ERR: 非法操作:respond.min.js
+
+[ 2016-09-28T12:04:17+08:00 ] 218.30.118.100 /js/selectivizr-min.js
+ERR: 非法操作:selectivizr-min.js
+
+[ 2016-09-28T12:50:50+08:00 ] 121.232.54.145 /article/article.html
+ERR: 非法操作:article
+
+[ 2016-09-28T16:24:08+08:00 ] 203.208.60.132 /Admin/login.php
+ERR: 非法操作:login.php
+
+[ 2016-09-28T17:55:14+08:00 ] 27.19.160.219 /article/article.html
+ERR: 非法操作:article
+
+[ 2016-09-28T19:35:36+08:00 ] 220.181.108.76 /Home/about.php
+ERR: 非法操作:about.php
+
+[ 2016-09-28T21:38:11+08:00 ] 121.201.3.223 /index.php/Index/program
+ERR: 非法操作:program
+
+[ 2016-09-28T21:39:00+08:00 ] 121.201.3.223 /index.php/Index/article/15.html
+ERR: 非法操作:article
+
+[ 2016-09-28T23:23:40+08:00 ] 123.125.71.113 /Home/liuyan.php
+ERR: 非法操作:liuyan.php
+
+[ 2016-09-28T23:25:59+08:00 ] 203.208.60.136 /Home/visit.php
+ERR: 非法操作:visit.php
+

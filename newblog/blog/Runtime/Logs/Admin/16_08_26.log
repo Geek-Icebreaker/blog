@@ -1,0 +1,213 @@
+[ 2016-08-26T21:13:05+08:00 ] ::1 /thinkphp2/admin.php/Login/Login/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `blog_admin` [ RunTime:0.0350s ]
+SQL: SELECT * FROM `blog_admin` WHERE `name` = 'joychi' AND `password` = '066eca7e6ec134fb5b064223345e830d' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] A session had already been started - ignoring session_start() E:\phpstudy\WWW\thinkphp2\ThinkPHP\Common\functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-26T21:13:07+08:00 ] ::1 /thinkphp2/admin.php/Index/showNav
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `blog_admin_nav` [ RunTime:0.0330s ]
+SQL: SELECT `id`,`text`,`state`,`iconCls`,`url` FROM `blog_admin_nav` WHERE `nid` = 0  [ RunTime:0.0000s ]
+
+[ 2016-08-26T21:13:08+08:00 ] ::1 /thinkphp2/admin.php/Index/showNav
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `blog_admin_nav` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`text`,`state`,`iconCls`,`url` FROM `blog_admin_nav` WHERE `nid` = 8  [ RunTime:0.0000s ]
+
+[ 2016-08-26T21:13:09+08:00 ] ::1 /thinkphp2/admin.php/Index/showNav
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `blog_admin_nav` [ RunTime:0.0080s ]
+SQL: SELECT `id`,`text`,`state`,`iconCls`,`url` FROM `blog_admin_nav` WHERE `nid` = 5  [ RunTime:0.0000s ]
+
+[ 2016-08-26T21:13:10+08:00 ] ::1 /thinkphp2/admin.php/Index/showNav
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `blog_admin_nav` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`text`,`state`,`iconCls`,`url` FROM `blog_admin_nav` WHERE `nid` = 1  [ RunTime:0.0010s ]
+
+[ 2016-08-26T21:13:11+08:00 ] ::1 /thinkphp2/admin.php/Article/index?_=1472217185917
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-26T21:13:12+08:00 ] ::1 /thinkphp2/admin.php/Article/getarticles
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0070s ]
+SQL: SELECT ba.a_id,ba.a_title,ba.a_views,ba.a_type,blog_admin.name,bac.cate_name,ba.create_time FROM blog_article ba left JOIN blog_article_cate bac on ba.cate_id = bac.cate_id INNER JOIN blog_admin on ba.a_author = blog_admin.id  ORDER BY `create_time` DESC LIMIT 0,20   [ RunTime:0.0330s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-08-26T21:13:14+08:00 ] ::1 /thinkphp2/admin.php/Members/index?_=1472217185919
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-26T21:13:15+08:00 ] ::1 /thinkphp2/admin.php/Members/getmembers
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `blog_members` [ RunTime:0.0660s ]
+SQL: SELECT `id`,`name`,`email`,`qq`,`reg_time`,`login_time`,`login_ip` FROM `blog_members` ORDER BY `reg_time` DESC LIMIT 0,20   [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_members` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-08-26T22:47:22+08:00 ] ::1 /thinkphp2/admin.php/Article/index?_=1472217185921
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-26T22:47:23+08:00 ] ::1 /thinkphp2/admin.php/Article/getarticles
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0050s ]
+SQL: SELECT ba.a_id,ba.a_title,ba.a_content,ba.a_views,ba.a_type,blog_admin.name,bac.cate_name,ba.create_time FROM blog_article ba left JOIN blog_article_cate bac on ba.cate_id = bac.cate_id INNER JOIN blog_admin on ba.a_author = blog_admin.id  ORDER BY `create_time` DESC LIMIT 0,20   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-08-26T22:52:28+08:00 ] ::1 /thinkphp2/admin.php/Index/showNav
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_admin_nav` [ RunTime:0.0280s ]
+SQL: SELECT `id`,`text`,`state`,`iconCls`,`url` FROM `blog_admin_nav` WHERE `nid` = 0  [ RunTime:0.0010s ]
+
+[ 2016-08-26T22:52:29+08:00 ] ::1 /thinkphp2/admin.php/Index/showNav
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_admin_nav` [ RunTime:0.0100s ]
+SQL: SELECT `id`,`text`,`state`,`iconCls`,`url` FROM `blog_admin_nav` WHERE `nid` = 1  [ RunTime:0.0010s ]
+
+[ 2016-08-26T22:52:31+08:00 ] ::1 /thinkphp2/admin.php/Index/showNav
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_admin_nav` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`text`,`state`,`iconCls`,`url` FROM `blog_admin_nav` WHERE `nid` = 5  [ RunTime:0.0010s ]
+
+[ 2016-08-26T22:52:32+08:00 ] ::1 /thinkphp2/admin.php/Index/showNav
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_admin_nav` [ RunTime:0.0070s ]
+SQL: SELECT `id`,`text`,`state`,`iconCls`,`url` FROM `blog_admin_nav` WHERE `nid` = 8  [ RunTime:0.0010s ]
+
+[ 2016-08-26T22:52:32+08:00 ] ::1 /thinkphp2/admin.php/Article/index?_=1472223147486
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-26T22:52:33+08:00 ] ::1 /thinkphp2/admin.php/Article/getarticles
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0050s ]
+SQL: SELECT ba.a_id,ba.a_title,ba.a_content,ba.a_views,ba.a_type,blog_admin.name,bac.cate_name,ba.create_time FROM blog_article ba left JOIN blog_article_cate bac on ba.cate_id = bac.cate_id INNER JOIN blog_admin on ba.a_author = blog_admin.id  ORDER BY `create_time` DESC LIMIT 0,20   [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-08-26T22:52:35+08:00 ] ::1 /thinkphp2/admin.php/Article/getcate
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_article_cate` [ RunTime:0.0060s ]
+SQL: SELECT `cate_id`,`cate_name` FROM `blog_article_cate`  [ RunTime:0.0000s ]
+
+[ 2016-08-26T22:52:36+08:00 ] ::1 /thinkphp2/admin.php/Admin/getAdmins
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_admin` [ RunTime:0.0070s ]
+SQL: SELECT `id`,`name`,`login_time`,`login_ip` FROM `blog_admin`  [ RunTime:0.0000s ]
+
+[ 2016-08-26T22:53:32+08:00 ] ::1 /thinkphp2/admin.php/Article/addarticle
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: validate E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\phpstudy\WWW\thinkphp2\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `blog_article` (`a_title`,`cate_id`,`a_author`,`create_time`,`a_content`) VALUES ('qq飞车技术详解','4','1','1472223171','&lt;p&gt;&lt;strong&gt;【极致刻苦　创下赛事传奇记录】&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;　　小编：罗伟你好，感谢你百忙之中抽出时间接受我们的采访，先来跟我们星秀的小伙伴们打声招呼吧。&lt;/p&gt;
+
+&lt;p&gt;　　罗伟：小编好，星光秀场的小伙伴们大家好，我是罗伟，谢谢大家对我的支持，同时也很高兴来到星光秀场认识大家。&lt;/p&gt;
+
+&lt;p&gt;　　小编：其实对你毋须过多介绍，相信很多飞车小伙伴都曾观看过第三季谁是车王的比赛，对你的名字耳熟能详，对你所创下的传奇荣誉也是如数家珍，更是对你本人充满着无限好奇和兴趣。&lt;/p&gt;
+
+&lt;p&gt;　　罗伟：小编过誉了，其实我也只是个普通人，没有什么传奇不传奇的，我相信只要大家能够努力，不怕辛苦，你也一定能够创下属于你自己的传奇的。&lt;/p&gt;
+
+&lt;p&gt;　　小编：其实我知道罗伟你也是个相当刻苦的人，能简单说下你的飞车历程吗？&lt;/p&gt;
+
+&lt;p&gt;　　罗伟：大概是08年的时候吧，我是被朋友带着玩飞车的，算起来我也是个骨灰级玩家了。其实那个时候我的水准也并不是很好，但幸运的是我被师傅念恩看中，他总是能够不厌其烦地督促我练习技术，甚至是要求我突破赛王的纪录，想起来那段时间应该是挺辛苦而且也是挺充实的。&lt;/p&gt;
+
+&lt;p&gt;　　小编：在刚刚结束不久的第三季谁是车王赛事上，你独揽个人赛和团体赛两项冠军荣誉，能跟大家分享你当时的心理感想吗？&lt;/p&gt;
+
+&lt;p&gt;　　罗伟：其实在此之前我已经获得了两届谁是车王的个人冠军，我真的没有想过自己还能蝉联第三季，那时候我也是抱着重在参与的心态。可是赛前我看到竞猜赔率也是吓了一跳，心里想着就是想别让大家失望，尽自己最大努力就好。获奖的那一刻我是很开心的，同时也在心里默默感激一路支持我的人，终究没有让他们失望。&lt;/p&gt;
+') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

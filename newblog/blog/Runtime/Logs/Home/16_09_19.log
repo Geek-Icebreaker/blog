@@ -1,0 +1,42 @@
+[ 2016-09-19T03:13:48+08:00 ] 220.181.158.106 /js/html5shiv.min.js
+ERR: 非法操作:html5shiv.min.js
+
+[ 2016-09-19T03:13:48+08:00 ] 220.181.158.106 /js/respond.min.js
+ERR: 非法操作:respond.min.js
+
+[ 2016-09-19T03:13:49+08:00 ] 220.181.158.106 /js/selectivizr-min.js
+ERR: 非法操作:selectivizr-min.js
+
+[ 2016-09-19T04:02:42+08:00 ] 66.249.69.227 /Home/login.php
+ERR: 非法操作:login.php
+
+[ 2016-09-19T05:30:45+08:00 ] 66.249.69.223 /Home/login.php
+ERR: 非法操作:login.php
+
+[ 2016-09-19T05:55:22+08:00 ] 220.181.51.81 /thinkphp/index.php/Home/Saylist/saylist.html
+ERR: 非法操作:index.php
+
+[ 2016-09-19T07:08:09+08:00 ] 220.181.158.106 /js/html5shiv.min.js
+ERR: 非法操作:html5shiv.min.js
+
+[ 2016-09-19T07:08:10+08:00 ] 220.181.158.106 /js/respond.min.js
+ERR: 非法操作:respond.min.js
+
+[ 2016-09-19T07:08:10+08:00 ] 220.181.158.106 /js/selectivizr-min.js
+ERR: 非法操作:selectivizr-min.js
+
+[ 2016-09-19T08:05:15+08:00 ] 123.125.71.84 /Home/about.php
+ERR: 非法操作:about.php
+
+[ 2016-09-19T08:32:06+08:00 ] 66.249.69.219 /Home/visit.php
+ERR: 非法操作:visit.php
+
+[ 2016-09-19T10:27:38+08:00 ] 66.249.69.219 /Admin/login.php
+ERR: 非法操作:login.php
+
+[ 2016-09-19T16:10:43+08:00 ] 123.125.71.47 /Home/about.php
+ERR: 非法操作:about.php
+
+[ 2016-09-19T23:40:29+08:00 ] 66.249.75.176 /Home/about.php
+ERR: 非法操作:about.php
+

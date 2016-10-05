@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="zh-CN">
+<include file="Public:head" />
+<body class="user-select">
+	<include file="Public:header"/>
+			<section class="container">
+			<div class="content-wrap">
+				<div class="content">
+					<div class="jumbotron">
+						<!--
+						<h1>欢迎访问Icebreaker博客</h1>
+						<p>在这里可以看到前端技术，后端程序，网站内容管理系统等文章，还有我的程序人生！</p>-->
+					</div>
+					<volist name="articleList" id="vo">
+						<article class="excerpt excerpt-1">
+							<a class="focus" href="{:U('Article/index/',array('a_id' => $vo['a_id']))}" title=""><img class="thumb" data-original="__IMAGES__/excerpt.jpg" src="__IMAGES__/excerpt.jpg" alt=""></a>
+							<header>
+								<a class="cat" href="program">{$vo['cate_name']}<i></i></a>
+								<h2><a href="article/{$vo['a_id']}.html" title="">{$vo['a_title']}</a></h2>  <!--{$vo['a_id']}-->
+								<!--{:U('Article/index/',array('a_id' => $vo['a_id']))}-->
+								
+								
+							</header>
+							<p class="meta">
+								<time class="time"><i class="glyphicon glyphicon-time"></i>{$vo['create_time']}</time>
+								<span class="views"><i class="glyphicon glyphicon-eye-open"></i>阅读 ({$vo['a_views']})</span>
+								<a class="comment" href="article.html#comment"><i class="glyphicon glyphicon-comment"></i>评论 (100)</a>
+							</p>
+							<p class="note">可以用strtotime()把日期（$date）转成时间戳，再用date()按需要验证的格式转成一个日期，来跟$date比较是否相同来验证这个日期的格式是否是正确的。所以要验证日期格式 ... </p>
+						</article>						
+					</volist>
+					<div class="quotes">
+				   		{$pageshow}
+				  	</div>
+				</div>
+			</div>
+		<!--登录注册开始-->
+			<include file="Public:loginReg"/>
+		<!--登录注册结束-->
+		<!--右侧部分开始-->
+		 <aside class="sidebar">
+			<include file="Public:right"/>
+		 </aside>
+		<!--右侧部分结束-->
+		</section>
+
+	<include file="Public:footer"/>
+
+	<!--about部分开始-->
+	<include file="Public:about"/>
+	<!--about部分结束-->
+		
+<!--右键菜单列表-->
+<!--
+<div id="rightClickMenu">
+  <ul class="list-group rightClickMenuList">
+    <li class="list-group-item disabled">欢迎访问异清轩博客</li>
+    <li class="list-group-item"><span>IP：</span>172.16.10.129</li>
+    <li class="list-group-item"><span>地址：</span>河南省郑州市</li>
+    <li class="list-group-item"><span>系统：</span>Windows10 </li>
+    <li class="list-group-item"><span>浏览器：</span>Chrome47</li>
+  </ul>
+</div>-->
+	<script type="text/javascript">
+		var thinkphp = {
+			'url':'__ROOT__/index.php/'
+		}
+	</script>
+<script src="__JS__/bootstrap.min.js"></script> 
+<script src="__JS__/jquery.ias.js"></script> 
+<script src="__JS__/scripts.js"></script> 
+<script src="__JS__/index.js"></script> 
+</body>
+</html>

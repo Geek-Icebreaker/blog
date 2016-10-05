@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>后台管理</title>
+	<link rel="stylesheet" type="text/css" href="__EASYUICSS__/default/easyui.css">
+	<link rel="stylesheet" type="text/css" href="__EASYUICSS__/icon.css">
+	<link rel="stylesheet" type="text/css" href="__EASYUICSS__/login.css">
+	<script type="text/javascript" src="__EASYUIJS__/jquery.min.js"></script>
+	<script type="text/javascript" src="__EASYUIJS__/jquery.easyui.min.js"></script>
+</head>
+<body class="easyui-layout">
+	<div id="login" data-options="iconCls:'icon-lock2',plain:true">
+		<p>
+			<label>登录用户:</label>
+			<input type="hidden" >
+			<input type="text" name="loginName" id="loginName" class="easyui-validatebox" autocomplete="off">
+		</p>
+		<p>
+			<label>登录密码:</label>
+			<input type="hidden" >
+			<input type="password" name="loginPass" id="loginPass" class="easyui-validatebox" autocomplete="off">
+		</p>
+		<p><a id="btn" href="#" class="easyui-linkbutton loginBtn" >登录</a></p>
+	</div>
+
+	<script type="text/javascript" src="__EASYUIJS__/login.js"></script>
+</body>
+</html>

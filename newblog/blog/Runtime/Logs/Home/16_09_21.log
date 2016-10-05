@@ -1,0 +1,30 @@
+[ 2016-09-21T04:05:47+08:00 ] 218.30.118.99 /js/html5shiv.min.js
+ERR: 非法操作:html5shiv.min.js
+
+[ 2016-09-21T04:05:48+08:00 ] 218.30.118.99 /js/respond.min.js
+ERR: 非法操作:respond.min.js
+
+[ 2016-09-21T04:05:48+08:00 ] 218.30.118.99 /js/selectivizr-min.js
+ERR: 非法操作:selectivizr-min.js
+
+[ 2016-09-21T07:45:01+08:00 ] 66.249.66.223 /Home/reg.php
+ERR: 非法操作:reg.php
+
+[ 2016-09-21T07:51:55+08:00 ] 66.249.66.223 /Home/about.php
+ERR: 非法操作:about.php
+
+[ 2016-09-21T08:49:05+08:00 ] 66.249.66.219 /Home/login.php
+ERR: 非法操作:login.php
+
+[ 2016-09-21T14:42:54+08:00 ] 218.30.118.102 /js/html5shiv.min.js
+ERR: 非法操作:html5shiv.min.js
+
+[ 2016-09-21T14:42:54+08:00 ] 218.30.118.102 /js/respond.min.js
+ERR: 非法操作:respond.min.js
+
+[ 2016-09-21T14:42:55+08:00 ] 218.30.118.102 /js/selectivizr-min.js
+ERR: 非法操作:selectivizr-min.js
+
+[ 2016-09-21T15:15:38+08:00 ] 220.181.51.104 /thinkphp/index.php/Home/Weblist/weblist.html
+ERR: 非法操作:index.php
+

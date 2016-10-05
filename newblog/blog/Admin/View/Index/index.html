@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>后台管理</title>
+	<link rel="stylesheet" type="text/css" href="__EASYUICSS__/default/easyui.css">
+	<link rel="stylesheet" type="text/css" href="__EASYUICSS__/icon.css">
+	<link rel="stylesheet" type="text/css" href="__EASYUICSS__/demo.css">
+	
+	<script type="text/javascript" src="__EASYUIJS__/jquery.min.js"></script>
+	<script type="text/javascript" src="__EASYUIJS__/jquery.easyui.min.js"></script>
+
+	<link rel="stylesheet" href="__CKEDIT__/samples/css/samples.css">
+	<link rel="stylesheet" href="__CKEDIT__/samples/toolbarconfigurator/lib/codemirror/neo.css">
+</head>
+<body class="easyui-layout">
+		<div data-options="region:'north'" class="header">
+			<h1>后台管理系统</h1>
+			<span>【{$name}】, 欢迎您, 登陆时间 : {$lastLoginTime}   <a href="#" id="logout">退出</a></span>
+		
+		</div>
+		<div data-options="region:'south',split:true" style="height:50px;"></div>
+		<div data-options="region:'west',split:true,iconCls:'icon-redo'" title="导航菜单" style="width:180px;">
+			<ul id="system"></ul>
+		</div>
+		<div data-options="region:'center',iconCls:'icon-ok'">
+			<div id="tabs">
+				<div title="起始页"></div>
+			</div>
+
+		</div>
+		
+	<script type="text/javascript">
+		var thinkphp = {
+			'url':'__ROOT__/admin.php/',
+			'uploads':'__ROOT__/Uploads',
+			'public':'__PUBLIC__',
+		}
+	</script>
+	<script type="text/javascript" src="__EASYUIJS__/index.js"></script>
+	<script type="text/javascript" src="__CKEDIT__/ckeditor.js"></script>
+
+	
+
+</body>
+
+</html>

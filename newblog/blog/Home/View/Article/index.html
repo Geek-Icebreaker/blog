@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="zh-CN">
+<include file="Public:head"/>
+<body class="user-select single">
+<include file="Public:header"/>
+<section class="container">
+    <div class="content-wrap">
+        <div class="content">
+			<volist name="articleList" id="vo">
+                <header class="article-header">
+                    <h1 class="article-title"><a href="article.html">{$vo['a_title']} </a></h1>
+                    <div class="article-meta"> <span class="item article-meta-time">
+	          <time class="time" data-toggle="tooltip" data-placement="bottom" title="时间：{$vo['create_time']}"><i
+                      class="glyphicon glyphicon-time">{$vo['create_time']}</i></time>
+	          </span> <span class="item article-meta-source" data-toggle="tooltip" data-placement="bottom"
+                            title="来源：破冰者博客"><i class="glyphicon glyphicon-globe"></i> 破冰者博客</span> <span
+                            class="item article-meta-category" data-toggle="tooltip" data-placement="bottom"
+                            title="栏目：{$vo['cate_name']}"><i class="glyphicon glyphicon-list"></i> <a href="program"
+                                                                                                      title="">{$vo['cate_name']}</a></span>
+                        <span class="item article-meta-views" data-toggle="tooltip" data-placement="bottom"
+                              title="查看：{$vo['a_views']}"><i class="glyphicon glyphicon-eye-open"></i> 阅读 ({$vo['a_views']})</span>
+                        <span class="item article-meta-comment" data-toggle="tooltip" data-placement="bottom"
+                              title="评论：{$commentCounts}"><i class="glyphicon glyphicon-comment"></i>评论 ({$commentCounts})</span></div>
+                </header>
+
+                <article class="article-content">
+					<!--<p><img data-original="__IMAGES__/banner/banner_03.jpg" src="__IMAGES__/banner/banner_03.jpg"
+                            alt=""/></p>-->
+                    <!--<p>{$vo['a_title']} </p>
+                    <pre class="prettyprint lang-php"></pre>
+                    <p></p>
+                    <p></p>-->
+                    {$vo['a_content']}
+                    <p class="article-copyright hidden-xs">未经允许不得转载：<a href="">Joy Chi的博客</a> » <a href="article.html">php如何判断一个日期的格式是否正确</a>
+                    </p>
+                </article>
+
+                <div class="article-tags">标签：<a href="" rel="tag">PHP</a></div>
+                <div class="relates">
+                    <div class="title">
+                        <h3>相关推荐</h3>
+                    </div>
+                    <ul>
+                        <li><a href="article.html">php如何判断一个日期的格式是否正确</a></li>
+                    </ul>
+                </div>
+                <div class="title" id="comment">
+                    <h3>评论
+                        <small>抢沙发</small>
+                    </h3>
+                </div>
+                <!--<div id="respond">
+                  <div class="comment-signarea">
+                    <h3 class="text-muted">评论前必须登录！</h3>
+                    <p> <a href="javascript:;" class="btn btn-primary login" rel="nofollow">立即登录</a> &nbsp; <a href="javascript:;" class="btn btn-default register" rel="nofollow">注册</a> </p>
+                    <h3 class="text-muted">当前文章禁止评论</h3>
+                  </div>
+                </div>-->
+                 <div class="alert alert-warning comment-alert" style="display: none">
+                     <a href="#" class="close"> &times; </a>
+                     <strong>警告！</strong>评论内容不可为空
+                 </div>
+                <div id="respond">
+                    <form action="" method="post" id="comment-form">
+                        <div class="comment">
+                            <div class="comment-title"><img class="avatar" src="__IMAGES__/icon/icon.png" alt=""/></div>
+                            <div class="comment-box">
+                                <textarea placeholder="您的评论可以一针见血" name="comment" class="pinglun" id="comment-textarea"
+                                          cols="100%" rows="3" tabindex="1"></textarea>
+                                <div class="comment-ctrl"><span class="emotion"><img src="__IMAGES__/face/5.png"
+                                                                                     width="20" height="20"
+                                                                                     alt=""/>表情</span>
+                                    <div class="comment-prompt"><i class="fa fa-spin fa-circle-o-notch"></i> <span
+                                            class="comment-prompt-text"></span></div>
+                                    <input type="hidden" value="{$vo['a_id']}" class="articleid"/>
+                                    <input type="hidden" value="{$userId}" class="userid"/>
+                                    <input type="hidden" value="{$name}" class="username"/>
+                                    <button type="button" name="comment-submit" id="comment-submit" tabindex="5"
+                                            articleid="1">评论
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </volist>
+
+                    <div id="postcomments">
+                        <ol class="commentlist">
+                            <volist name="commentList" id="vo1">
+                                <li class="comment-content">
+                                    <if condition="($name eq '')">
+                                        <elseif condition="$vo1['m_name'] eq $name"/>
+                                            <span class="comment-f"><a href="###" id ="{$vo1['id']}" onclick="delComment(this);">删除</a></span>
+                                        <else />
+                                            <span class="comment-f"><a href="###" onclick="returnComment(this)">回复</a></span>
+                                    </if>
+
+                                    <div class="comment-avatar">
+                                        <img class="avatar" src="__IMAGES__/icon/icon.png" alt=""/>
+                                    </div>
+                                    <div class="comment-main">
+                                        <p>来自<span class="address">{$vo1['m_name']}</span>的用户<span
+                                                class="time">(2016-01-06)</span><br/>
+                                            {$vo1['comment']}
+                                        </p>
+
+
+                                    </div>
+                                </li>
+                            </volist>
+                        </ol>
+
+
+                        <div class="quotes">
+                            {$pageShow}
+                        </div>
+                    </div>
+
+
+            </div>
+
+    </div>
+
+    <!--右侧部分开始-->
+	 <aside class="sidebar">
+		<include file="Public:right"/>
+	 </aside>
+    <!--右侧部分结束-->
+
+</section>
+
+<!--页脚部分开始-->
+<include file="Public:footer"/>
+<!--页脚部分结束-->
+
+<!--登录注册开始-->
+<include file="Public:loginReg"/>
+<!--登录注册结束-->
+
+<div class="modal fade" id="remind" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog" style="width: 200px;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                    &times;
+                </button>
+                <h4 class="modal-title" id="myModalLabel" style="text-align: center">
+                    友情提醒
+                </h4>
+            </div>
+            <div class="modal-body" style="text-align:center">
+                骚年,你还没有登录
+            </div>
+            <div class="modal-footer" style="text-align:center">
+                <button type="button" class="btn btn-default" data-dismiss="modal" id="goReg">
+                    去注册
+                </button>
+                <button type="button" class="btn btn-primary" id="goLogin">
+                    去登录
+                </button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal -->
+</div>
+<!--
+<div id="rightClickMenu">
+  <ul class="list-group rightClickMenuList">
+    <li class="list-group-item disabled">欢迎访问异清轩博客</li>
+    <li class="list-group-item"><span>IP：</span>172.16.10.129</li>
+    <li class="list-group-item"><span>地址：</span>河南省郑州市</li>
+    <li class="list-group-item"><span>系统：</span>Windows10</li>
+    <li class="list-group-item"><span>浏览器：</span>Chrome47</li>
+  </ul>
+</div>-->
+<script type="text/javascript">
+    var thinkphp = {
+        'url':'__ROOT__/index.php/',
+        'publicUrl':'__ROOT__/Public/'
+    }
+</script>
+<script src="__JS__/bootstrap.min.js"></script>
+<script src="__JS__/jquery.ias.js"></script>
+<script src="__JS__/scripts.js"></script>
+<script src="__JS__/jquery.qqFace.js"></script>
+<script src="__JS__/index.js"></script>
+<script type="text/javascript">
+
+    $(function () {
+        $('.emotion').qqFace({
+            id: 'facebox',
+            assign: 'comment-textarea',
+            path: '__IMAGES__/arclist/'	//表情存放的路径
+        });
+    });
+</script>
+</body>
+</html>

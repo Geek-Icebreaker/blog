@@ -1,0 +1,57 @@
+[ 2016-09-29T03:21:00+08:00 ] 218.30.118.99 /js/html5shiv.min.js
+ERR: 非法操作:html5shiv.min.js
+
+[ 2016-09-29T03:21:01+08:00 ] 218.30.118.99 /js/respond.min.js
+ERR: 非法操作:respond.min.js
+
+[ 2016-09-29T03:21:01+08:00 ] 218.30.118.99 /js/selectivizr-min.js
+ERR: 非法操作:selectivizr-min.js
+
+[ 2016-09-29T04:06:05+08:00 ] 218.30.118.102 /js/html5shiv.min.js
+ERR: 非法操作:html5shiv.min.js
+
+[ 2016-09-29T04:06:05+08:00 ] 218.30.118.102 /js/respond.min.js
+ERR: 非法操作:respond.min.js
+
+[ 2016-09-29T04:06:06+08:00 ] 218.30.118.102 /js/selectivizr-min.js
+ERR: 非法操作:selectivizr-min.js
+
+[ 2016-09-29T13:06:22+08:00 ] 121.201.3.198 /js/jquery-1.11.1.min.js
+ERR: 非法操作:jquery-1.11.1.min.js
+
+[ 2016-09-29T13:06:23+08:00 ] 121.201.3.198 /js/html5shiv.min.js
+ERR: 非法操作:html5shiv.min.js
+
+[ 2016-09-29T13:06:23+08:00 ] 121.201.3.198 /js/respond.min.js
+ERR: 非法操作:respond.min.js
+
+[ 2016-09-29T13:06:23+08:00 ] 121.201.3.198 /js/selectivizr-min.js
+ERR: 非法操作:selectivizr-min.js
+
+[ 2016-09-29T20:26:57+08:00 ] 220.181.108.83 /index.php/Back/program
+ERR: 非法操作:program
+
+[ 2016-09-29T21:00:17+08:00 ] 123.125.71.47 /index.php/Back/article/10.html
+ERR: 非法操作:article
+
+[ 2016-09-29T21:33:01+08:00 ] 121.201.3.223 /index.php/Index/article/10.html
+ERR: 非法操作:article
+
+[ 2016-09-29T21:33:37+08:00 ] 123.125.71.71 /index.php/Back/article.html
+ERR: 非法操作:article
+
+[ 2016-09-29T21:42:33+08:00 ] 121.201.3.223 /article/article.html
+ERR: 非法操作:article
+
+[ 2016-09-29T22:20:50+08:00 ] 220.181.108.109 /index.php/Back/sitemap.xml
+ERR: 非法操作:sitemap.xml
+
+[ 2016-09-29T22:34:43+08:00 ] 123.125.71.17 /index.php/Back/article/12.html
+ERR: 非法操作:article
+
+[ 2016-09-29T23:00:41+08:00 ] 123.125.71.43 /Home/about.php
+ERR: 非法操作:about.php
+
+[ 2016-09-29T23:02:29+08:00 ] 123.125.71.82 /index.php/Back/article/13.html
+ERR: 非法操作:article
+

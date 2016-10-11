@@ -18,6 +18,8 @@ class IndexController extends Controller
 		$this->assign('articleList', $arr[0]);
         $this->assign('pageshow', $arr[1]);
 		$this->assign('hotArticle',$hotArticle);
+		$remoteInfo = A('Base')->getRemoteInfo();
+		$this->assign('remoteInfo',$remoteInfo);
         $this->display();
     }
 

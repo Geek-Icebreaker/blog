@@ -1,0 +1,319 @@
+[ 2016-10-09T09:00:16+08:00 ] 114.232.92.155 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000617s ]
+
+[ 2016-10-09T09:00:17+08:00 ] 114.232.92.155 /admin.php/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000318s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018854s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018972s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000792s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000859s ]
+
+[ 2016-10-09T09:00:25+08:00 ] 114.232.92.155 /admin.php/Login/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000756s ]
+SQL: SHOW COLUMNS FROM `blog_admin` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `blog_admin` WHERE `name` = 'joychi' AND `password` = 'c1d952863be53323f15d7c87a994e627' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `blog_admin` SET `login_time`='1475974825',`login_ip`='114.232.92.155' WHERE ( id=1 ) [ RunTime:0.0003s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/jijialexjii1jbiia9lce/wwwroot/ThinkPHP/Common/functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000788s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000918s ]
+
+[ 2016-10-09T09:00:25+08:00 ] 114.232.92.155 /admin.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000513s ]
+SQL: SHOW COLUMNS FROM `blog_admin` [ RunTime:0.0009s ]
+SQL: SELECT `login_time` FROM `blog_admin` WHERE ( name=0 ) LIMIT 1   [ RunTime:0.1442s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000256s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011617s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011765s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000830s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000913s ]
+
+[ 2016-10-09T09:00:26+08:00 ] 114.232.92.155 /admin.php/Index/showNav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+SQL: SHOW COLUMNS FROM `blog_admin_nav` [ RunTime:0.0085s ]
+SQL: SELECT `id`,`text`,`state`,`iconCls`,`url` FROM `blog_admin_nav` WHERE `nid` = 0  [ RunTime:0.0009s ]
+
+[ 2016-10-09T09:00:26+08:00 ] 114.232.92.155 /admin.php/Index/showNav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000506s ]
+SQL: SHOW COLUMNS FROM `blog_admin_nav` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`text`,`state`,`iconCls`,`url` FROM `blog_admin_nav` WHERE `nid` = 8  [ RunTime:0.0003s ]
+
+[ 2016-10-09T09:00:26+08:00 ] 114.232.92.155 /admin.php/Index/showNav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000580s ]
+SQL: SHOW COLUMNS FROM `blog_admin_nav` [ RunTime:0.0009s ]
+SQL: SELECT `id`,`text`,`state`,`iconCls`,`url` FROM `blog_admin_nav` WHERE `nid` = 5  [ RunTime:0.0005s ]
+
+[ 2016-10-09T09:00:26+08:00 ] 114.232.92.155 /admin.php/Index/showNav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+SQL: SHOW COLUMNS FROM `blog_admin_nav` [ RunTime:0.0009s ]
+SQL: SELECT `id`,`text`,`state`,`iconCls`,`url` FROM `blog_admin_nav` WHERE `nid` = 1  [ RunTime:0.0006s ]
+
+[ 2016-10-09T09:00:27+08:00 ] 114.232.92.155 /admin.php/Article/index?_=1475974827287
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000742s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008080s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008155s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000157s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000508s ]
+
+[ 2016-10-09T09:00:28+08:00 ] 114.232.92.155 /admin.php/Article/getarticles
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0004s ]
+SQL: SELECT ba.a_id,ba.a_title,ba.a_content,ba.a_views,ba.a_type,blog_admin.name,bac.cate_name,ba.create_time FROM blog_article ba left JOIN blog_article_cate bac on ba.cate_id = bac.cate_id INNER JOIN blog_admin on ba.a_author = blog_admin.id  ORDER BY `create_time` DESC LIMIT 0,20   [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-10-09T09:00:29+08:00 ] 114.232.92.155 /admin.php/Article/getcate
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+SQL: SHOW COLUMNS FROM `blog_article_cate` [ RunTime:0.0007s ]
+SQL: SELECT `cate_id`,`cate_name` FROM `blog_article_cate`  [ RunTime:0.0002s ]
+
+[ 2016-10-09T09:00:29+08:00 ] 114.232.92.155 /admin.php/Admin/getAdmins
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+SQL: SHOW COLUMNS FROM `blog_admin` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`name`,`login_time`,`login_ip` FROM `blog_admin`  [ RunTime:0.0002s ]
+
+[ 2016-10-09T09:04:18+08:00 ] 114.232.92.155 /admin.php/Article/addarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: validate /home/jijialexjii1jbiia9lce/wwwroot/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /home/jijialexjii1jbiia9lce/wwwroot/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `blog_article` (`a_title`,`a_intro`,`cate_id`,`a_author`,`create_time`,`a_content`) VALUES ('使用PHP和HTML5 FormData实现无刷新文件上传教程','无刷新文件上传是一个常见而又有点复杂的问题，常见的解决方案是构造 iframe 方式实现。  在 HTML5 中提供了一个 FormData 对象 API，通过 FormData 可以方便地构造一个表单请求，并通过 XMLHttpRequest 来发送。通过 FormData 对象发送文件也是可以的，如此则无刷新上传就变的非常简单了。  那么 FormData 怎么使用呢？下面对此进行简单的介绍。','2','1','1475974839','&lt;p&gt;&lt;strong&gt;1. 构造 FormData 对象&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;想得到一个FormData对象，很简单：&lt;/p&gt;
+
+&lt;pre&gt;
+var fd = new FormData();&lt;/pre&gt;
+
+&lt;p&gt;FormData 对象只提供了一个方法 append ，用于向对象中添加表单请求参数。&lt;br /&gt;
+在当前主流浏览器中，可通过如下两种方式获取或修改FormData。&lt;br /&gt;
+方法一：创建一个空的FormData对象，然后再用append方法逐个添加键值对。示例：&lt;/p&gt;
+
+&lt;pre&gt;
+var fd = new FormData();
+fd.append(&amp;quot;name&amp;quot;, &amp;quot;joychi&amp;quot;);
+fd.append(&amp;quot;blog&amp;quot;, &amp;quot;http://www.ice-breaker.cn&amp;quot;);
+fd.append(&amp;quot;file&amp;quot;, document.getElementById(&amp;quot;file&amp;quot;));
+&lt;/pre&gt;
+
+&lt;p&gt;这种方法可以不需要 HTML 的表单对象存在。&lt;br /&gt;
+方法二：取得form元素对象，将它作为参数传入FormData对象中。示例：&lt;/p&gt;
+
+&lt;pre&gt;
+var formobj = document.getElementById(&amp;quot;form&amp;quot;);
+var fd = new FormData(formobj);&lt;/pre&gt;
+
+&lt;p&gt;当然，这里还可以使用 append 方法继续向 fd 中添加其他参数。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2. FormData 发送请求&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;得到 FormData 对象了，如何发送请求呢？ FormData 对象主要用于增强型的 XMLHttpRequest 对象的 send 方法中。参考如下示例：&lt;/p&gt;
+
+&lt;pre&gt;
+var xhr = new XMLHttpRequest();    
+xhr.open(&amp;quot;POST&amp;quot; ,&amp;quot;http://www.ice-breaker.cn&amp;quot; , true);
+xhr.send(fd);
+xhr.onload = function(e) {
+  if (this.status == 200) {
+    alert(this.responseText);
+  }
+};
+&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;3. jquery 中使用 FormData&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;在 jQuery 的 ajax 方法中，也可使用 FormData 方式实现无刷新上传。但要注意参数的设置，参考如下：&lt;/p&gt;
+
+&lt;pre&gt;
+$.ajax({
+  url: &amp;quot;http://www.ice-breaker.cn&amp;quot;,
+  type: &amp;#39;POST&amp;#39;,
+  data: fd,
+  /**
+   *必须false才会自动加上正确的Content-Type
+   */
+  contentType:false,
+  /**
+   * 必须false才会避开jQuery对 formdata 的默认处理
+   * XMLHttpRequest会对 formdata 进行正确的处理
+   */
+  processData:false
+}).done(function(result){
+  console.log(result);
+}).fail(function(err){
+  console.log(err);
+});
+&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;4. 一个完整的示例（包含PHP处理示例）：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;
+&amp;lt;?php
+//php 接收表单提交信息并打印
+if( isset( $_REQUEST[&amp;#39;do&amp;#39;]) ){
+  var_dump($_REQUEST);
+  var_dump($_FILES);
+  die();
+}
+
+?&amp;gt;
+&amp;lt;!DOCTYPE HTML&amp;gt;
+&amp;lt;html&amp;gt;
+  &amp;lt;head&amp;gt;
+    &amp;lt;meta charset=&amp;quot;utf-8&amp;quot;&amp;gt;
+    &amp;lt;title&amp;gt;FormData Test - joychi&amp;lt;/title&amp;gt;
+    &amp;lt;script src=&amp;quot;http://libs.baidu.com/jquery/2.0.0/jquery.min.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+  &amp;lt;/head&amp;gt;
+  &amp;lt;body&amp;gt;
+    &amp;lt;form id=&amp;quot;form&amp;quot;&amp;gt;
+      &amp;lt;input type=&amp;quot;file&amp;quot; name=&amp;quot;file&amp;quot; id=&amp;quot;file&amp;quot; /&amp;gt;
+      &amp;lt;input type=&amp;quot;text&amp;quot; name=&amp;quot;name&amp;quot; id=&amp;quot;&amp;quot; value=&amp;quot;joychi&amp;quot; /&amp;gt;
+      &amp;lt;input type=&amp;quot;text&amp;quot; name=&amp;quot;blog&amp;quot; id=&amp;quot;&amp;quot; value=&amp;quot;http://www.ice-breaker.cn&amp;quot; /&amp;gt;
+      &amp;lt;input type=&amp;quot;submit&amp;quot; name=&amp;quot;do&amp;quot; id=&amp;quot;do&amp;quot; value=&amp;quot;submit&amp;quot; /&amp;gt;
+    &amp;lt;/form&amp;gt;
+    &amp;lt;script&amp;gt;
+    $(&amp;quot;form&amp;quot;).submit(function(e){
+      e.preventDefault();
+      
+      //空对象然后添加
+      var fd = new FormData();
+      fd.append(&amp;quot;name&amp;quot;, &amp;quot;joychi&amp;quot;);
+      fd.append(&amp;quot;blog&amp;quot;, &amp;quot;http://www.ice-breaker.cn&amp;quot;);
+      fd.append(&amp;quot;file&amp;quot;, document.getElementById(&amp;quot;file&amp;quot;));
+      //fd.append(&amp;quot;file&amp;quot;, $(&amp;quot;:file&amp;quot;)[0].files[0]); //jQuery 方式
+      fd.append(&amp;quot;do&amp;quot;, &amp;quot;submit&amp;quot;);
+      
+      //通过表单对象创建 FormData
+      var fd = new FormData(document.getElementById(&amp;quot;form&amp;quot;));
+      //var fd = new FormData($(&amp;quot;form:eq(0)&amp;quot;)[0]); //jquery 方式
+      
+      //XMLHttpRequest 原生方式发送请求
+      var xhr = new XMLHttpRequest();    
+      xhr.open(&amp;quot;POST&amp;quot; ,&amp;quot;&amp;quot; , true);
+      xhr.send(fd);
+      xhr.onload = function(e) {
+        if (this.status == 200) {
+          alert(this.responseText);
+        };
+      };
+      return;
+      //jQuery 方式发送请求
+      $.ajax({
+        type:&amp;quot;post&amp;quot;,
+        //url:&amp;quot;&amp;quot;,
+        data: fd,
+        processData: false,
+        contentType: false
+      }).done(function(res){
+        console.log(res);
+      });
+      
+      return false;
+    });
+    &amp;lt;/script&amp;gt;
+  &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;&lt;/pre&gt;
+') [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000804s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000881s ]
+
+[ 2016-10-09T09:04:18+08:00 ] 114.232.92.155 /admin.php/Article/getarticles
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `blog_article` [ RunTime:0.0006s ]
+SQL: SELECT ba.a_id,ba.a_title,ba.a_content,ba.a_views,ba.a_type,blog_admin.name,bac.cate_name,ba.create_time FROM blog_article ba left JOIN blog_article_cate bac on ba.cate_id = bac.cate_id INNER JOIN blog_admin on ba.a_author = blog_admin.id  ORDER BY `create_time` DESC LIMIT 0,20   [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_article` LIMIT 1   [ RunTime:0.0002s ]
+

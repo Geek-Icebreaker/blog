@@ -8,6 +8,8 @@ class UserController extends Controller {
 		$user = $members->where('id=%d',session('id'))->getField('m_name,email,qq,faceSrc');
 		
 		$this->assign('user',$user);
+		$remoteInfo = A('Base')->getRemoteInfo();
+		$this->assign('remoteInfo',$remoteInfo);
 		$this->display('set');
 	}
 	public function notice(){
@@ -15,7 +17,8 @@ class UserController extends Controller {
 	}
 	public function password(){
 		A('Base')->frontUser();
-		
+		$remoteInfo = A('Base')->getRemoteInfo();
+		$this->assign('remoteInfo',$remoteInfo);
 		$this->display('password');
 	}
 	public function modify(){

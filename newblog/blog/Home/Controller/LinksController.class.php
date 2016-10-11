@@ -10,6 +10,8 @@ class LinksController extends Controller {
         }		
 		$links = M('Links');
 		$this->assign('allLinks',$links->select());
+		$remoteInfo = A('Base')->getRemoteInfo();
+		$this->assign('remoteInfo',$remoteInfo);
 		$this->display();
 	}
 }

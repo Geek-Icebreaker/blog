@@ -10,6 +10,11 @@ class SafeController extends Controller {
         }
         $articles = D('Home/Article');
         $arr = $articles->getarticles('3');
+		$remoteInfo = A('Base')->getRemoteInfo();
+		//print_r($remoteInfo);
+		$this->assign('remoteInfo',$remoteInfo);
+		$hotArticle = A('Base')->getHotArticle();
+		$this->assign('hotArticle',$hotArticle);
 		$this->assign('articleList', $arr[0]);
         $this->assign('pageshow', $arr[1]);
         $this->display();

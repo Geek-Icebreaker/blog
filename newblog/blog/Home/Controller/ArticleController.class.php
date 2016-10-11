@@ -22,10 +22,9 @@ class ArticleController extends Controller
 			//print_r($articleListArr);
             //获取当前文章对应的评论
             $comments = D('Home/Comment');
-            $commentList = $comments->getCommentList($a_id);
+			$commentList = $comments->getCommentList($a_id);
 			$this->assign('articleList', $articleList);
-			
-            $this->assign('commentList', $commentList[0]);
+			$this->assign('commentList', $commentList[0]);
             $this->assign('pageShow', $commentList[1]);
 			$this->assign('commentCounts', $commentList[2]);
             $this->display();
@@ -57,16 +56,4 @@ class ArticleController extends Controller
             echo $did;
         }
     }
-    public function test(){
-        echo 'test';
-		if($_GET['a_id']){
-			echo $_GET['a_id'];
-		}else{
-			echo 0;
-		}
-		
-    }
-	public function getHotArticle(){
-		
-	}
 }

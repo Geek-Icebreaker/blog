@@ -31,8 +31,10 @@ class ArticleModel extends Model
 				->where('bac.cate_id=%d', $cate)
 				->limit($Page->firstRow . ',' . $Page->listRows)
 				->select();
+			$comments = D('Home/Comment');
 			foreach ($articles as $key => $value) {
 				$articles[$key]['create_time'] = date('Y-m-d H:i:s', $articles[$key]['create_time']);
+				$articles[$key]['commentCounts'] = $comments->where('aid=%d',$articles[$key]['a_id'])->count();
 			}
 			return array($articles, $pageshow);			
 		}else{
@@ -54,8 +56,10 @@ class ArticleModel extends Model
 				->order('create_time desc')
 				->limit($Page->firstRow . ',' . $Page->listRows)
 				->select();
+			$comments = D('Home/Comment');
 			foreach ($articles as $key => $value) {
 				$articles[$key]['create_time'] = date('Y-m-d H:i:s', $articles[$key]['create_time']);
+				$articles[$key]['commentCounts'] = $comments->where('aid=%d',$articles[$key]['a_id'])->count();
 			}
 	
 			return array($articles,$pageshow);			
@@ -70,21 +74,6 @@ class ArticleModel extends Model
      */
     public function getOnearticle($a_id)
     {
-        /*
-        $articles = $this->table('blog_article ba')
-        ->join('blog_article_cate bac on ba.cate_id = bac.cate_id','left')
-        ->join('blog_admin on ba.a_author = blog_admin.id','left')
-        ->join('blog_comment bc on ba.a_id = bc.aid','left')
-        ->join('blog_members bm on bc.mid = bm.id','left')
-        ->field('ba.a_id,ba.a_title,ba.a_content,ba.a_views,ba.a_type,blog_admin.name,bac.cate_name,ba.create_time,bm.m_name,bc.comment,bc.comment_time')
-        ->order('create_time desc')
-        ->where('a_id=%d',$a_id)
-        ->select();
-        foreach($articles as $key=>$value){
-            $articles[$key]['a_content'] =  htmlspecialchars_decode($articles[$key]['a_content']);
-            $articles[$key]['create_time'] = date('Y-m-d H:i:s',$articles[$key]['create_time']);
-        }
-        return $articles;*/
 		$this->where('a_id=%d',$a_id)->setInc('a_views');
         $articles = $this->table('blog_article ba')
             ->join('blog_article_cate bac on ba.cate_id = bac.cate_id', 'left')
@@ -93,10 +82,12 @@ class ArticleModel extends Model
             ->order('create_time desc')
             ->where('a_id=%d', $a_id)
             ->select();
+		
         foreach ($articles as $key => $value) {
             $articles[$key]['a_content'] = htmlspecialchars_decode($articles[$key]['a_content']);
             $articles[$key]['create_time'] = date('Y-m-d H:i:s', $articles[$key]['create_time']);
-        }
+			
+		}
 		return $articles;
     }
 	public function getHotArticle(){

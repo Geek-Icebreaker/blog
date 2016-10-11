@@ -8,6 +8,8 @@ class TagsController extends Controller {
         } else {
             $this->assign('name', '');
         }
+		$remoteInfo = A('Base')->getRemoteInfo();
+		$this->assign('remoteInfo',$remoteInfo);
 		$this->display();
 	}
 }

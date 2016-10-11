@@ -772,3 +772,186 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000587s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000644s ]
 
+[ 2016-10-04T20:59:41+08:00 ] 121.201.3.223 /admin.php/Login/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000722s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `blog_admin` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `blog_admin` WHERE `name` = 'joychi' AND `password` = '066eca7e6ec134fb5b064223345e830d' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000637s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000693s ]
+
+[ 2016-10-04T20:59:46+08:00 ] 121.201.3.223 /admin.php/Login/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+SQL: SHOW COLUMNS FROM `blog_admin` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `blog_admin` WHERE `name` = 'joychi' AND `password` = 'c1d952863be53323f15d7c87a994e627' LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `blog_admin` SET `login_time`='1475585986',`login_ip`='121.201.3.223' WHERE ( id=1 ) [ RunTime:0.0003s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/jijialexjii1jbiia9lce/wwwroot/ThinkPHP/Common/functions.php 第 1263 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000614s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000665s ]
+
+[ 2016-10-04T20:59:46+08:00 ] 121.201.3.223 /admin.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+SQL: SHOW COLUMNS FROM `blog_admin` [ RunTime:0.0008s ]
+SQL: SELECT `login_time` FROM `blog_admin` WHERE ( name=0 ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000211s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007152s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007253s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000736s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000813s ]
+
+[ 2016-10-04T20:59:46+08:00 ] 121.201.3.223 /admin.php/Index/showNav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000646s ]
+SQL: SHOW COLUMNS FROM `blog_admin_nav` [ RunTime:0.0009s ]
+SQL: SELECT `id`,`text`,`state`,`iconCls`,`url` FROM `blog_admin_nav` WHERE `nid` = 0  [ RunTime:0.0002s ]
+
+[ 2016-10-04T20:59:47+08:00 ] 121.201.3.223 /admin.php/Index/showNav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+SQL: SHOW COLUMNS FROM `blog_admin_nav` [ RunTime:0.0013s ]
+SQL: SELECT `id`,`text`,`state`,`iconCls`,`url` FROM `blog_admin_nav` WHERE `nid` = 1  [ RunTime:0.0005s ]
+
+[ 2016-10-04T20:59:47+08:00 ] 121.201.3.223 /admin.php/Index/showNav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000514s ]
+SQL: SHOW COLUMNS FROM `blog_admin_nav` [ RunTime:0.0008s ]
+SQL: SELECT `id`,`text`,`state`,`iconCls`,`url` FROM `blog_admin_nav` WHERE `nid` = 5  [ RunTime:0.0003s ]
+
+[ 2016-10-04T20:59:47+08:00 ] 121.201.3.223 /admin.php/Index/showNav
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+SQL: SHOW COLUMNS FROM `blog_admin_nav` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`text`,`state`,`iconCls`,`url` FROM `blog_admin_nav` WHERE `nid` = 8  [ RunTime:0.0003s ]
+
+[ 2016-10-04T20:59:48+08:00 ] 121.201.3.223 /admin.php/Members/index?_=1475586343853
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006049s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006097s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000168s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000513s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000571s ]
+
+[ 2016-10-04T20:59:49+08:00 ] 121.201.3.223 /admin.php/Members/getmembers
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+SQL: SHOW COLUMNS FROM `blog_members` [ RunTime:0.0012s ]
+SQL: SELECT `id`,`m_name`,`email`,`qq`,`reg_time`,`login_time`,`login_ip` FROM `blog_members` ORDER BY `reg_time` DESC LIMIT 0,20   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_members` LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-10-04T20:59:49+08:00 ] 121.201.3.223 /admin.php/Links/index?_=1475586343855
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005613s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005664s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000186s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000492s ]
+
+[ 2016-10-04T20:59:49+08:00 ] 121.201.3.223 /admin.php/Links/getLinks
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+SQL: SHOW COLUMNS FROM `blog_links` [ RunTime:0.0011s ]
+SQL: SELECT `id`,`name`,`url`,`time`,`status` FROM `blog_links` ORDER BY `time` DESC LIMIT 0,20   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_links` LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-10-04T20:59:53+08:00 ] 121.201.3.223 /admin.php/Links/index?_=1475586343857
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005412s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005461s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000158s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000386s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000425s ]
+
+[ 2016-10-04T20:59:53+08:00 ] 121.201.3.223 /admin.php/Links/getLinks
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000498s ]
+SQL: SHOW COLUMNS FROM `blog_links` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`name`,`url`,`time`,`status` FROM `blog_links` ORDER BY `time` DESC LIMIT 0,20   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_links` LIMIT 1   [ RunTime:0.0001s ]
+

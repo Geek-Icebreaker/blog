@@ -24,18 +24,12 @@
                 </header>
 
                 <article class="article-content">
-					<!--<p><img data-original="__IMAGES__/banner/banner_03.jpg" src="__IMAGES__/banner/banner_03.jpg"
-                            alt=""/></p>-->
-                    <!--<p>{$vo['a_title']} </p>
-                    <pre class="prettyprint lang-php"></pre>
-                    <p></p>
-                    <p></p>-->
-                    {$vo['a_content']}
+					{$vo['a_content']}
                     <p class="article-copyright hidden-xs">未经允许不得转载：<a href="">Joy Chi的博客</a> » <a href="article.html">php如何判断一个日期的格式是否正确</a>
                     </p>
                 </article>
 
-                <div class="article-tags">标签：<a href="" rel="tag">PHP</a></div>
+                <div class="article-tags">标签：<a href="" rel="tag">{$vo['cate_name']}</a></div>
                 <div class="relates">
                     <div class="title">
                         <h3>相关推荐</h3>
@@ -97,7 +91,11 @@
                                     </if>
 
                                     <div class="comment-avatar">
-                                        <img class="avatar" src="__IMAGES__/icon/icon.png" alt=""/>
+										<if condition="$vo1['facesrc'] eq '' ">
+												<img class="avatar" height="36px" width="36px" src="__IMAGES__/icon/icon.png" alt=""/>
+											<else />
+												<img class="avatar" height="36px" width="36px" src="{$vo1['facesrc']}" alt=""/>
+										</if>
                                     </div>
                                     <div class="comment-main">
                                         <p>来自<span class="address">{$vo1['m_name']}</span>的用户<span

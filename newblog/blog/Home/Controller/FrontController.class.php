@@ -10,9 +10,13 @@ class FrontController extends Controller {
         }
         $articles = D('Home/Article');
         $arr = $articles->getarticles('1');
+		$hotArticle = A('Base')->getHotArticle();
+		$this->assign('hotArticle',$hotArticle);
 		$this->assign('articleList', $arr[0]);
         $this->assign('pageshow', $arr[1]);
-        $this->display();
+		$remoteInfo = A('Base')->getRemoteInfo();
+		$this->assign('remoteInfo',$remoteInfo);
+		$this->display();
 	}
 
 }

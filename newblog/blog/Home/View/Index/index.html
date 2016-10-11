@@ -42,17 +42,17 @@
 					</article>
 					<div class="title">
 						<h3>最新发布</h3>
-						<div class="more">
+						<!--<div class="more">
 							<a href="">PHP</a>
 							<a href="">JavaScript</a>
 							<a href="">EmpireCMS</a>
 							<a href="">Apache</a>
 							<a href="">MySQL</a>
-						</div>
+						</div>-->
 					</div>
 					<volist name="articleList" id="vo">
 						<article class="excerpt excerpt-1">
-							<a class="focus" href="/article/{$vo['a_id']}.html" title=""><img class="thumb" data-original="__IMAGES__/excerpt.jpg" src="__IMAGES__/excerpt.jpg" alt=""></a>
+							<a class="focus" href="article/{$vo['a_id']}.html" title=""><img class="thumb" data-original="__IMAGES__/excerpt.jpg" src="__IMAGES__/excerpt.jpg" alt=""></a>
 							<header>
 								<a class="cat" href="program">{$vo['cate_name']}<i></i></a>
 								<h2><a href="/article/{$vo['a_id']}.html" title="">{$vo['a_title']}</a></h2>  <!--{$vo['a_id']}-->
@@ -63,7 +63,7 @@
 							<p class="meta">
 								<time class="time"><i class="glyphicon glyphicon-time"></i>{$vo['create_time']}</time>
 								<span class="views"><i class="glyphicon glyphicon-eye-open"></i>阅读 ({$vo['a_views']})</span>
-								<a class="comment" href="article.html#comment"><i class="glyphicon glyphicon-comment"></i>评论 ({$vo['a_comments']})</a>
+								<a class="comment" href="article.html#comment"><i class="glyphicon glyphicon-comment"></i>评论 ({$vo['commentCounts']})</a>
 							</p>
 							<p class="note">{$vo['a_intro']}</p>
 						</article>						
@@ -140,16 +140,7 @@
 
 		
 		<!--右键菜单列表-->
-		<!--
-		<div id="rightClickMenu">
-			<ul class="list-group rightClickMenuList">
-				<li class="list-group-item disabled">欢迎访问异清轩博客</li>
-				<li class="list-group-item"><span>IP：</span>172.16.10.129</li>
-				<li class="list-group-item"><span>地址：</span>河南省郑州市</li>
-				<li class="list-group-item"><span>系统：</span>Windows10 </li>
-				<li class="list-group-item"><span>浏览器：</span>Chrome47</li>
-			</ul>
-		</div>-->
+		<include file="Public:remoteInfo"/>
 	<script type="text/javascript">
 		var thinkphp = {
 			'url':'__ROOT__/index.php/'

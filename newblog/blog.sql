@@ -42,7 +42,7 @@ CREATE TABLE IF NOT EXISTS `blog_admin` (
 --
 
 INSERT INTO `blog_admin` (`id`, `name`, `password`, `login_time`, `login_ip`) VALUES
-(1, 'admin', '21232f297a57a5a743894a0e4a801fc3', '1475585986', '121.201.3.223'),
+(1, 'admin', '21232f297a57a5a743894a0e4a801fc3', '1475585986', '121.201.3.223')
 
 
 -- --------------------------------------------------------
@@ -182,7 +182,6 @@ CREATE TABLE IF NOT EXISTS `blog_links` (
 --
 
 INSERT INTO `blog_links` (`id`, `name`, `url`, `time`, `status`) VALUES
-(2, '轮回博客', 'http://ilunhui.cn/', '1475043841', 0),
 (3, '828科技网', 'http://www.828keji.com', '1475389441', 1),
 (4, '牛路阳的博客', 'http://niuluyang.51sql.cn/', '1475389441', 1);
 

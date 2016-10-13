@@ -97,15 +97,12 @@ $(function(){
 			var rows = $('#linkList').datagrid('getSelections');
 			var ids = Array();
 			if(rows.length == 0){
-				$.messager.alert({
-					'title':'友情提醒',
-					'msg':'您没有选定要删除的数据'
-				})
+				$.messager.alert('友情提醒','您没有选定要删除的数据','warning')
 			}else{
 				for(var i = 0;i < rows.length;i++){
 					ids.push(rows[i].id);
 				}
-				$.messager.confirm('友情提醒','您确定要删除所选数据吗？',function(r){
+				$.messager.confirm('友情提醒','您确定要删除所选数据吗',function(r){
 					if(r){
 						$.ajax({
 							type:'POST',
@@ -274,15 +271,9 @@ $(function(){
             });
 			var rows = $('#linkList').datagrid('getSelections');
 			if(rows.length > 1){
-				$.messager.alert({
-					title:'友情提醒',
-					msg:'无法同时编辑多条数据',
-				});
+				$.messager.alert("友情提醒", "无法同时编辑多条数据", "warning");
 			}else if(rows.length == 0){
-				$.messager.alert({
-					title:'友情提醒',
-					msg:'您还没有选择要编辑的数据',
-				});				
+				$.messager.alert("友情提醒", "您还没有选择要编辑的数据", "warning");	
 			}else if(rows.length == 1){
 				$.ajax({
 					type:'POST',

@@ -72,10 +72,10 @@ $(function(){
 		buttons : [
 		   {
 			   text : '提交',
-			   iconCls : 'icon-edit-new',
+			   iconCls: 'icon-edit-new',
 			   handler : function () {
 				   	if ($('#editMember').form('validate')) {
-						alert($('input[name="edit_password"]').val());
+						//alert($('input[name="edit_password"]').val());
 						$.ajax({
 							type:'POST',
 							url:thinkphp.url + 'Members/updateMember',
@@ -105,31 +105,19 @@ $(function(){
 								}else{
 									if(resp == -1){
 										$.messager.progress('close');
-										$.messager.alert({
-												title:'友情提醒',
-												msg:'用户名不能重复',
-										});
+										$.messager.alert('友情提醒','用户名不能重复','warning');		
 										$.messager.progress('close');
 									}else if(resp == -3){
 										$.messager.progress('close');
-										$.messager.alert({
-												title:'友情提醒',
-												msg:'请输入4-20位的密码',
-										});
+										$.messager.alert('友情提醒','请输入4-20位的密码','warning');
 										$('input[name="edit_password"]').select();										
 									}else if(resp == -4){
 										$.messager.progress('close');
-										$.messager.alert({
-												title:'友情提醒',
-												msg:'邮箱地址不符合要求',
-										});
+										$.messager.alert('友情提醒','邮箱地址不符合要求','warning');
 										$('input[name="edit_email"]').select();												
 									}else if(resp == -5){
 										$.messager.progress('close');
-										$.messager.alert({
-												title:'友情提醒',
-												msg:'qq不符合要求',
-										});
+										$.messager.alert('友情提醒','qq不符合要求','warning');
 										$('input[name="edit_qq"]').select();											
 									}
 								}
@@ -156,10 +144,7 @@ $(function(){
 			var rows = $('#membersList').datagrid('getSelections');
 			var ids = Array();
 			if(rows.length == 0){
-				$.messager.alert({
-					'title':'友情提醒',
-					'msg':'您没有选定要删除的数据'
-				})
+				$.messager.alert('友情提醒','您没有选定要删除的数据','warning');
 			}else{
 				for(var i = 0;i < rows.length;i++){
 					ids.push(rows[i].id);
@@ -185,7 +170,7 @@ $(function(){
 									});
 								}
 							},
-							error: function(XMLHttpRequest, textStatus, errorThrown) {
+							warning: function(XMLHttpRequest, textStatus, warningThrown) {
 				                alert(XMLHttpRequest.status);
 				                alert(XMLHttpRequest.readyState);
 				                alert(textStatus);
@@ -254,39 +239,25 @@ $(function(){
 									}else{
 										if(resp == -1){
 											$.messager.progress('close');
-											$.messager.alert({
-													title:'友情提醒',
-													msg:'用户名不能重复',
-											});
+											$.messager.alert('友情提醒','用户名不能重复','warning');
+											
 											$('input[name="name"]').select();
 											$.messager.progress('close');
 										}else if(resp == -2){
 											$.messager.progress('close');
-											$.messager.alert({
-													title:'友情提醒',
-													msg:'请输入4-20位的用户名',
-											});
+											$.messager.alert('友情提醒','请输入4-20位的用户名','warning');
 											$('input[name="name"]').select();
 										}else if(resp == -3){
 											$.messager.progress('close');
-											$.messager.alert({
-													title:'友情提醒',
-													msg:'请输入4-20位的密码',
-											});
+											$.messager.alert('友情提醒','请输入4-20位的密码','warning');
 											$('input[name="password"]').select();										
 										}else if(resp == -4){
 											$.messager.progress('close');
-											$.messager.alert({
-													title:'友情提醒',
-													msg:'邮箱地址不符合要求',
-											});
+											$.messager.alert('友情提醒','邮箱地址不符合要求','warning');
 											$('input[name="email"]').select();												
 										}else if(resp == -5){
 											$.messager.progress('close');
-											$.messager.alert({
-													title:'友情提醒',
-													msg:'qq不符合要求',
-											});
+											$.messager.alert('友情提醒','qq不符合要求','warning');
 											$('input[name="qq"]').select();											
 										}
 									}
@@ -309,15 +280,9 @@ $(function(){
 		edit:function(){
 			var rows = $('#membersList').datagrid('getSelections');
 			if(rows.length > 1){
-				$.messager.alert({
-					title:'友情提醒',
-					msg:'无法同时编辑多条数据',
-				});
+				$.messager.alert('友情提醒','无法同时编辑多条数据','warning');
 			}else if(rows.length == 0){
-				$.messager.alert({
-					title:'友情提醒',
-					msg:'您还没有选择要编辑的数据',
-				});				
+				$.messager.alert('友情提醒','您还没有选择要编辑的数据','warning');				
 			}else if(rows.length == 1){
 				$.ajax({
 					type:'POST',

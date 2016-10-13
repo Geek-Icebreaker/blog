@@ -1,9 +1,4 @@
 $(document).ready(function () {
-	/*
-	$('.close').click(function () {
-		alert(9999);
-        //$('.alert').hide();
-    });*/
 	$('.login-close').click(function(){
 		$('.login-alert').hide();;
 	});
@@ -241,7 +236,15 @@ $(document).ready(function () {
     $('#headReg').click(function () {
         $("#regModal").modal('show');
     });
+	//搜索
+	$('#search').click(function(){
+		if($('#keyword').val() != ''){
+			location.href = '/article/s/' + encodeURI(encodeURI($('#keyword').val()));
+		}
+	});
+	
 });
+
 function delComment(obj){
     $.ajax({
         type: "POST",

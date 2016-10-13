@@ -13,13 +13,16 @@ class IndexController extends Controller
             $this->assign('name', '');
         }
         $articles = D('Home/Article');
+		$count = A('Common')->infoCount();
         $arr = $articles->getarticles();
 		$hotArticle = $articles->getHotArticle(); //获取热门文章
+		$remoteInfo = A('Base')->getRemoteInfo();
+		
 		$this->assign('articleList', $arr[0]);
         $this->assign('pageshow', $arr[1]);
 		$this->assign('hotArticle',$hotArticle);
-		$remoteInfo = A('Base')->getRemoteInfo();
 		$this->assign('remoteInfo',$remoteInfo);
+		$this->assign('count',$count);
         $this->display();
     }
 

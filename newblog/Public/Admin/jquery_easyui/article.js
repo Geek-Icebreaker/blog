@@ -196,7 +196,11 @@ $(function () {
             $('#articleList').datagrid('reload');
         },
         add: function () {
-            $('input[name="title"]').validatebox({
+			$('input[name="file"]').filebox({
+				buttonText: '选择上传图片',
+				buttonAlign: 'right'
+			})
+			$('input[name="title"]').validatebox({
                 required: true,
                 missingMessage: "请输入文章标题",
             })
@@ -243,10 +247,45 @@ $(function () {
                 config.height = 300;
                 config.toolbarCanCollapse = true;
             }
+			$('input[name="file"]').on('change',function(){
+				var fileObj = $(this).filebox('getValue');
+				console.log(fileObj);
+				if (!fileObj) {
+					alert('请选择文件');
+					return;
+				} else {
+					var FileController = thinkphp.url + 'Base/upload';
+					// FormData Object
+					var form = new FormData();
+					form.append("file", fileObj); // file obj
+					// XMLHttpRequest object
+					var xhr = new XMLHttpRequest();
+					xhr.open("post", FileController, true);
+					xhr.onload = function () {
+
+					};
+					xhr.onreadystatechange = function () {
+						if (xhr.readyState == 4 && xhr.status == 200) {
+							if (xhr.responseText == 1)
+								alert('upload success');
+							else if (xhr.responseText == 2)
+								alert("Please replace the file suffix");
+							else if (xhr.responseText == 3)
+								alert('upload error,please again');
+							else if (typeof xhr.responseText == 'string'){
+								imgPath = xhr.responseText;
+								alert(imgPath);
+							}
+
+						}
+					}
+					xhr.send(form);
+				}			
+			});
             $('#addArticle').dialog({
                 maximizable: true,  //是否使用放大按钮
                 collapsible: true, //是否使用折叠按钮
-                draggable: false, //是否可以拖拽  默认ture
+                draggable: true, //是否可以拖拽  默认ture
                 title: '新建文章',
                 width: 960,
                 height: 550,
@@ -266,7 +305,7 @@ $(function () {
                                     author: $('input[name="author"]').val(),
                                     create_time: $('input[name="create-time"]').val(),
                                     content: CKEDITOR.instances.editor.getData()
-                                },
+								},
                                 success: function (resp) {
                                     if (resp) {
                                         //$('#articleList').datagrid('loaded');

@@ -103,6 +103,26 @@ class ArticleModel extends Model
 		
 		return $articles;					
 	}
+	public function search($keyword){
+		$map['a_title'] = array('like','%'.$keyword.'%');
+		$count = $this->where($map)->count();
+		$Page = new \Think\Page($count, 8); //实例化分页类 传入总记录数和每页显示的记录数
+		$Page->setConfig('first', '首页');
+		$Page->setConfig('prev', '上一页');
+		$Page->setConfig('next', '下一页');
+		$Page->setConfig('end', '尾页');
+		$Page->setConfig('theme', '%HEADER% %FIRST% %UP_PAGE% %LINK_PAGE% %DOWN_PAGE% %END%');
+		$Page->setConfig('header', '总记录数：%TOTAL_ROW%条');
+		$pageshow = $Page->show();  //分页显示输出
+		$articles = $this->table('blog_article ba')
+			->where($map)
+			->join('blog_article_cate bac on ba.cate_id = bac.cate_id', 'left')
+			->field('a_id,a_title,a_intro,a_views,create_time,bac.cate_name')
+			->order('create_time desc')
+			->limit($Page->firstRow . ',' . $Page->listRows)
+			->select();
+		return array($articles,$pageshow);			
+	}
 }
 
 

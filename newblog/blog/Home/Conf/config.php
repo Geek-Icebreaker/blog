@@ -1,3 +1,4 @@
+
 <?php
 return array(
 	//'配置项'=>'配置值'
@@ -7,14 +8,16 @@ return array(
 			'__IMAGES__'     =>  __ROOT__.'/Public/Home/images', 
 			'__UPLOAD__' =>  __ROOT__.'/Uploads',
 		),
-		'SHOW_PAGE_TRACE'=>false,
-		'TMPL_CACHE_ON'=>false,   
-		'URL_MODEL'          => '1',
-		'URL_ROUTER_ON'   => true,
+		'SHOW_PAGE_TRACE'	=>false,   //开启页面缓存
+		'TMPL_CACHE_ON'		=>true,	   //开启模板缓存
+		'DB_FIELDS_CACHE' 	=>  true,  //开启字段缓存
+		'URL_MODEL'         => '1',
+		'URL_ROUTER_ON'     => true,   //开启路由
 		'URL_ROUTE_RULES'=>array(    
 			'article/:a_id\d'  => 'index.php/Article/index',
+			'article/s/:keyword' => 'index.php/Article/search',
 			'index.html' => 'index.php/Index/index',
-			'front.html' => 'index.php/Front/index',
+			'front.html' => 'index.php/Index/index',
 			'back.html' => 'index.php/Back/index',
 			'safe.html' => 'index.php/Safe/index',
 			'category.html' => 'index.php/Category/index',

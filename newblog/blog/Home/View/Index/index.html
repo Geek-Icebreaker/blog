@@ -63,7 +63,7 @@
 							<p class="meta">
 								<time class="time"><i class="glyphicon glyphicon-time"></i>{$vo['create_time']}</time>
 								<span class="views"><i class="glyphicon glyphicon-eye-open"></i>阅读 ({$vo['a_views']})</span>
-								<a class="comment" href="article.html#comment"><i class="glyphicon glyphicon-comment"></i>评论 ({$vo['commentCounts']})</a>
+								<a class="comment" href="###"><i class="glyphicon glyphicon-comment"></i>评论 ({$vo['commentCounts']})</a>
 							</p>
 							<p class="note">{$vo['a_intro']}</p>
 						</article>						
@@ -111,11 +111,11 @@
         </div>
       </div>
       <div class="widget widget_search">
-        <form class="navbar-form" action="/Search" method="post">
+        <form>
           <div class="input-group">
-            <input type="text" name="keyword" class="form-control" size="35" placeholder="请输入关键字" maxlength="15" autocomplete="off">
+            <input type="text" id="keyword" value='' class="form-control" size="35" placeholder="请输入关键字" maxlength="15" autocomplete="off">
             <span class="input-group-btn">
-            <button class="btn btn-default btn-search" name="search" type="submit">搜索</button>
+            <button class="btn btn-default btn-search" id="search" type="button">搜索</button>
             </span> </div>
         </form>
       </div>
@@ -140,10 +140,11 @@
 
 		
 		<!--右键菜单列表-->
-		<include file="Public:remoteInfo"/>
+		<!--<include file="Public:remoteInfo"/>-->
 	<script type="text/javascript">
 		var thinkphp = {
-			'url':'__ROOT__/index.php/'
+			'url':'__ROOT__/index.php/',
+			'search':'__ROOT__'
 		}
 	</script>
 	<script src="__JS__/bootstrap.min.js"></script> 

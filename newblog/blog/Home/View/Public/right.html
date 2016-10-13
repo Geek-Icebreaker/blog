@@ -1,27 +1,50 @@
+<div class="widget widget_sentence">
+  <h3>每日一句</h3>
+  <div class="widget-sentence-content">
+	<h4>2016年01月05日星期二</h4>
+	<p>Do not let what you cannot do interfere with what you can do.<br />
+	  别让你不能做的事妨碍到你能做的事。（John Wooden）</p>
+  </div>
+</div>
+<div class="widget widget_hot">
+  <h3>热门文章</h3>
+  <ul>
+	<volist name="hotArticle" id="hotArticleArr">
+		<li>
+			<a href="/article/{$hotArticleArr['a_id']}.html">  
+				<span class="thumbnail"><img class="thumb" data-original="____IMAGES____/excerpt.jpg" src="__IMAGES__/excerpt.jpg" alt=""></span>
+				<span class="text">{$hotArticleArr['a_title']}</span><span class="muted"><i class="glyphicon glyphicon-time"></i> {$hotArticleArr['create_time']}</span>
+				<p class="muted">
+					<i class="glyphicon glyphicon-eye-open"></i>
+					阅读:{$hotArticleArr['a_views']}
+				</p>
+			</a>
+		</li>
+	</volist>
+  </ul>
+</div>
 
-	<div class="widget widget_sentence">
-      <h3>每日一句</h3>
-      <div class="widget-sentence-content">
-        <h4>2016年01月05日星期二</h4>
-        <p>Do not let what you cannot do interfere with what you can do.<br />
-          别让你不能做的事妨碍到你能做的事。（John Wooden）</p>
-      </div>
-    </div>
-    <div class="widget widget_hot">
-      <h3>热门文章</h3>
-      <ul>
-		<volist name="hotArticle" id="hotArticleArr">
-			<li>
-				<a href="article/{$hotArticleArr['a_id']}.html">  
-					<span class="thumbnail"><img class="thumb" data-original="____IMAGES____/excerpt.jpg" src="__IMAGES__/excerpt.jpg" alt=""></span>
-					<span class="text">{$hotArticleArr['a_title']}</span><span class="muted"><i class="glyphicon glyphicon-time"></i> {$hotArticleArr['create_time']}</span>
-					<p class="muted">
-						<i class="glyphicon glyphicon-eye-open"></i>
-						阅读:{$hotArticleArr['a_views']}
-					</p>
-				</a>
-			</li>
-		</volist>
-      </ul>
-    </div>
+<div class="widget widget-tags">
+  <h3>我的标签</h3>
+  <ul>
+	<li><a href="###" class="label label-primary shake">javascript</a></li>
+	<li><a href="###" class="label label-success shake">php</a></li>
+	<li><a href="###" class="label label-primary shake">thinkphp</a></li>
+	<li><a href="###" class="label label-info shake">laravel</a></li>
+	<li><a href="###" class="label label-primary shake">微信开发</a></li>
+	<li><a href="###" class="label label-danger shake">linux</a></li>
+	<li><a href="###" class="label label-primary shake">网络安全</a></li>
+	<li><a href="###" class="label label-success shake">生活</a></li>
+  </ul>
+</div>
+
+<div class="widget widget_statistics">
+  <h3>网站统计</h3>
+  <ul>
+	<li><strong>用户总数 : </strong>{$count.members}</li>
+	<li><strong>标签总数 : </strong>{$count.tags}</li>
+	<li><strong>分类总数 : </strong>{$count.cates}</li>
+	<li><strong>评论总数 : </strong>{$count.comments}</li>
+ </ul>
+</div>
   

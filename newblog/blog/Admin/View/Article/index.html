@@ -19,11 +19,17 @@
 
 <!--添加文章-->
 
-<form action="###" id="addArticle" style="display: none;">
+<form action="###" id="addArticle" style="display: none;" enctype="multipart/form-data">
 	<div class="article-div">	
 			<div><h3>文章标题</h3></div>
 			<input class="easyui-validatebox textbox" style="width:60%;height:32px" name="title">
 	</div>
+	<div class="article-div">	
+			<div><h3>文章缩略图</h3></div>
+			<input class="text" name="file" value='1' data-options="prompt:'上传缩略图'" style="width:30%;height:32px"><br/>
+			<a href="javascript:void(0)" class="easyui-linkbutton" id="submit">上传</a>
+	</div>
+	
 	<div class="article-div">
 		<div><h3>文章简介</h3></div>
 		<input class="easyui-validatebox textbox" style="width:50%;height:52px" name="intro">

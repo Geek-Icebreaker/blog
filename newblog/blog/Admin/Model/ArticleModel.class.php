@@ -60,9 +60,10 @@ class ArticleModel extends Model{
 		}
 		return $articles[0];
 	}
-	public function updateArticle($id,$title,$intro,$cate,$author,$create_time,$content){
+	public function updateArticle($id,$title,$thumbnail,$intro,$cate,$author,$create_time,$content){
 	    $data['a_title'] = $title;
 		$data['a_intro'] = $intro;
+		$data['a_thumbnail'] = $thumbnail;
         $data['cate_id'] = $cate;
         $data['a_author'] = $author;
         $data['create_time'] = strtotime($create_time);

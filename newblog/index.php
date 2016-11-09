@@ -19,7 +19,7 @@ if(version_compare(PHP_VERSION,'5.3.0','<'))  die('require PHP > 5.3.0 !');
 
 // 定义应用目录
 define('APP_PATH','./blog/');
-
+define('APP_DEBUG',false);
 //定义默认
 define('DIR_SECURE_FILENAME', 'default.html');
 

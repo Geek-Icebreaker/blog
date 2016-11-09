@@ -3,14 +3,9 @@
     <div class="container">
       <div class="header-topbar hidden-xs link-border">
         <ul class="site-nav topmenu">
-          <li><a href="http://www.ice-breaker.cn/tags.html">标签云</a></li>
-          <li><a href="http://www.ice-breaker.cn/readers.html" rel="nofollow">读者墙</a></li>
-          <li><a href="http://www.ice-breaker.cn/links.html" rel="nofollow">友情链接</a></li>
-<!--
-          <li><a href="{:U('Tags/index','','')}">标签云</a></li>
-          <li><a href="{:U('Readers/index','','')}" rel="nofollow">读者墙</a></li>
-          <li><a href="{:U('Links/index','','')}" rel="nofollow">友情链接</a></li>
--->          
+          <li><a href="/tags.html">标签云</a></li>
+          <li><a href="/readers.html" rel="nofollow">读者墙</a></li>
+          <li><a href="/links.html" rel="nofollow">友情链接</a></li>     
           <li class="dropdown">
           	<a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" rel="nofollow">关注本站 <span class="caret"></span></a>
             <ul class="dropdown-menu header-topbar-dropdown-menu">
@@ -27,23 +22,23 @@
 					<a href="" rel="nofollow"></a></div>
 		    	<else />
 					<a href="javascript:void(0);"  "rel="nofollow">Hi,{$name}</a>&nbsp;&nbsp;
-					<a href="http://www.ice-breaker.cn/user/set.html"  "rel="nofollow">个人中心</a>&nbsp;&nbsp;
+					<a href="/user/set.html"  "rel="nofollow">个人中心</a>&nbsp;&nbsp;
 					<a href="{:U('Base/logout','','')}" rel="nofollow">退出</a></div>
 			</if>
       
-
+	 
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#header-navbar" aria-expanded="false"> <span class="sr-only"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-        <h1 class="logo hvr-bounce-in"><a href="index.html" title=""><img src="__IMAGES__/logo.png" alt=""></a></h1>
+        <h1 class="logo hvr-bounce-in"><a href="/index.html" title=""><img src="__IMAGES__/logo.png" alt=""></a></h1>
       </div>
       <div class="collapse navbar-collapse" id="header-navbar">
         <ul class="nav navbar-nav navbar-right">
-          <li class="hidden-index active"><a data-cont="破冰者首页" href="http://www.ice-breaker.cn/index.html">破冰者首页</a></li>
-          <li><a href="http://www.ice-breaker.cn/front.html">前端技术</a></li>
-          <li><a href="http://www.ice-breaker.cn/back.html">后端程序</a></li>
-          <li><a href="http://www.ice-breaker.cn/safe.html">网络安全</a></li>
-          <li><a href="http://www.ice-breaker.cn/category.html">系统运维</a></li>
-          <li><a href="http://www.ice-breaker.cn/life.html">程序人生</a></li>
+          <li class="hidden-index active"><a data-cont="破冰者首页" href="/index.html">破冰者首页</a></li>
+          <li><a href="/front.html">前端技术</a></li>
+          <li><a href="/back.html">后端程序</a></li>
+          <li><a href="/safe.html">网络安全</a></li>
+          <li><a href="/category.html">系统运维</a></li>
+          <li><a href="/life.html">程序人生</a></li>
 		</ul>
         <form class="navbar-form visible-xs" action="/Search" method="post">
           <div class="input-group">

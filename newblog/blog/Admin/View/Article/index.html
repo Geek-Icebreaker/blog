@@ -1,4 +1,3 @@
-
 <div id="article-toolbar">
 	<a href="javascript:void(0)" class="easyui-linkbutton" data-options="iconCls:'icon-reload',plain:true" onclick="tools.reload();">刷新</a>
 	<a href="javascript:void(0)" class="easyui-linkbutton" data-options="iconCls:'icon-cancel',plain:true" onclick="tools.delete();">删除</a>
@@ -19,15 +18,15 @@
 
 <!--添加文章-->
 
-<form action="###" id="addArticle" style="display: none;" enctype="multipart/form-data">
+<!--<form action="###" id="addArticle" style="display: none;" enctype="multipart/form-data">
 	<div class="article-div">	
 			<div><h3>文章标题</h3></div>
 			<input class="easyui-validatebox textbox" style="width:60%;height:32px" name="title">
 	</div>
 	<div class="article-div">	
 			<div><h3>文章缩略图</h3></div>
-			<input class="text" name="file" value='1' data-options="prompt:'上传缩略图'" style="width:30%;height:32px"><br/>
-			<a href="javascript:void(0)" class="easyui-linkbutton" id="submit">上传</a>
+			<input id="file_upload" name="file_upload" type="file" multiple="true">
+			<img id="upload_img">
 	</div>
 	
 	<div class="article-div">
@@ -58,15 +57,67 @@
            
         </textarea>
 	</div>	
-</form>
+</form>-->
+<style>
 
+</style>
+<form action="###" id="addArticle" style="display: none;" enctype="multipart/form-data">
+	<table width="930" border='0' cellpadding=0 cellspacing=0 class="article_table">
+		<tr>
+			<td class="td1">文章标题</td>
+			<td class="td2"><input class="easyui-validatebox textbox" style="width:50%;height:30px" name="intro"></td>
+		</tr>
+		<tr>
+			<td class="td1">文章缩略图</td>
+			<td class="td2"><input id="file_upload" name="file_upload" type="file" multiple="true">
+			<img id="upload_img"></td>
+		</tr>
+		<tr>
+			<td class="td1">文章简介</td>
+			<td class="td2"><input class="easyui-validatebox textbox" style="width:50%;height:30px" name="intro"></td>
+		</tr>
+		<tr>
+			<td class="td1">文章分类</td>
+			<td class="td2">
+			<select id="cate" name="cate" class="easyui-combobox" style="width:150px;">
+				<option value="请选择文章分类">请选择文章分类</option>
+			</select>
+			</td>
+		</tr>
+		<tr>
+			<td class="td1">文章发布者</td>
+			<td class="td2">
+			<select id="author" name="author" class="easyui-combobox" style="width:150px;">
+				<option value="请选择发布者">请选择发布者</option>
+			</select>
+			</td>
+		</tr>
+		<tr>
+			<td class="td1">发布时间</td>
+			<td class="td2"><input id="dt" type="text" name="create-time" style="width: 150px;"></td>
+		</tr>
+		<tr>
+			<td class="td1">正文内容</td>
+			<td class="td2">
+			<textarea name="editor" id="editor" rows="10" cols="80">
+           
+			</textarea>
+			</td>
+		</tr>
+	</table>
+</form>
 <!--编辑文章-->
 <form action="###" id="editArticle" style="display: none;">
 	<div class="article-div">	
 			<div><h3>文章标题</h3></div>
 			<input type="hidden" value="" name="e_id"/>
 			<input class="easyui-validatebox textbox" style="width:60%;height:32px" name="e_title">
-		</div>
+	</div>
+	<div class="article-div">	
+		<div><h3>文章缩略图</h3></div>
+		<input id="file_upload" name="file_upload" type="file" multiple="true">
+		<img id="upload_img">
+	</div>
 	<div class="article-div">
 		<div><h3>文章分类</h3></div>
 		<select id="e-cate" name="e_cate" class="easyui-combobox" style="width:150px;">
@@ -96,5 +147,4 @@
         </textarea>
 	</div>
 </form>
-
-	<script type="text/javascript" src="__EASYUIJS__/article.js"></script>
+<script type="text/javascript" src="__EASYUIJS__/article.js"></script>

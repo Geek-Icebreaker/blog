@@ -22,8 +22,7 @@
                             <input type="text" class="form-control" id="loginModalUserName" placeholder="请输入用户名" autofocus maxlength="15" autocomplete="off" required>
                         </div>
                     </div>
-
-                    <div class="form-group">
+					<div class="form-group">
                         <div class="input-group">
 								  <span class="input-group-addon">
 								  	<i class="glyphicon glyphicon-lock"></i>
@@ -31,14 +30,18 @@
                             <input type="password" class="form-control" id="loginModalUserPwd" placeholder="请输入密码" maxlength="18" autocomplete="off" required>
                         </div>
                     </div>
+					<div class="form-group">
+						<div><wb:login-button type="3,2" onlogin="login" onlogout="logout">登录按钮</wb:login-button></div>
+					</div>				
                 </div>
+				
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">取消</button>
                     <!--<button type="button" class="btn btn-primary" id="login">登录</button>-->
                     <button class="btn btn-primary ladda-button login" data-style="zomm-out"><span class="ladda-label">登录</span></button>
                 </div>
             </form>
-        </div>
+		</div>
     </div>
 </div>
 <!--注册模态框-->

@@ -26,7 +26,7 @@ class ArticleModel extends Model
 			
 			$articles = $this->table('blog_article ba')
 				->join('blog_article_cate bac on ba.cate_id = bac.cate_id', 'left')
-				->field('a_id,a_title,a_intro,a_views,a_comments,create_time,bac.cate_name')
+				->field('a_id,a_title,a_thumbnail,a_intro,a_views,a_comments,create_time,bac.cate_name')
 				->order('create_time desc')
 				->where('bac.cate_id=%d', $cate)
 				->limit($Page->firstRow . ',' . $Page->listRows)
@@ -52,7 +52,7 @@ class ArticleModel extends Model
 			
 			$articles = $this->table('blog_article ba')
 				->join('blog_article_cate bac on ba.cate_id = bac.cate_id', 'left')
-				->field('a_id,a_title,a_intro,a_views,create_time,bac.cate_name')
+				->field('a_id,a_title,a_thumbnail,a_intro,a_views,create_time,bac.cate_name')
 				->order('create_time desc')
 				->limit($Page->firstRow . ',' . $Page->listRows)
 				->select();
@@ -61,7 +61,6 @@ class ArticleModel extends Model
 				$articles[$key]['create_time'] = date('Y-m-d H:i:s', $articles[$key]['create_time']);
 				$articles[$key]['commentCounts'] = $comments->where('aid=%d',$articles[$key]['a_id'])->count();
 			}
-	
 			return array($articles,$pageshow);			
 		}
 
@@ -93,14 +92,13 @@ class ArticleModel extends Model
 	public function getHotArticle(){
 		$articles = $this->table('blog_article ba')
 			->join('blog_article_cate bac on ba.cate_id = bac.cate_id', 'left')
-			->field('ba.a_id,ba.a_title,ba.a_views,ba.create_time,bac.cate_name')
+			->field('ba.a_id,ba.a_title,ba.a_thumbnail,ba.a_views,ba.create_time,bac.cate_name')
 			->order('a_views desc')
 			->limit(0,4)
 			->select();
 		foreach ($articles as $key => $value) {
 			$articles[$key]['create_time'] = date('Y-m-d H:i:s', $articles[$key]['create_time']);
 		}
-		
 		return $articles;					
 	}
 	public function search($keyword){
@@ -117,7 +115,7 @@ class ArticleModel extends Model
 		$articles = $this->table('blog_article ba')
 			->where($map)
 			->join('blog_article_cate bac on ba.cate_id = bac.cate_id', 'left')
-			->field('a_id,a_title,a_intro,a_views,create_time,bac.cate_name')
+			->field('a_id,a_title,a_thumbnail,a_intro,a_views,create_time,bac.cate_name')
 			->order('create_time desc')
 			->limit($Page->firstRow . ',' . $Page->listRows)
 			->select();

@@ -16,9 +16,9 @@ return array(
 	'DB_CHARSET'=> 'utf8', // 字符集
 	'DB_TYPE'   => 'mysql', 
 	'DB_HOST' => 'localhost',
-	'DB_NAME' => '',
-	'DB_USER'   => '', 
-	'DB_PWD'    => '', 
+	'DB_NAME' => 'jijiale',
+	'DB_USER'   => 'jijiale', 
+	'DB_PWD'    => '002956JJL,.', 
 	'DB_PREFIX' => 'blog_',
 	'MODULE_ALLOW_LIST'    =>    array('Home','Admin'),
 	'URL_HTML_SUFFIX'=>'html',

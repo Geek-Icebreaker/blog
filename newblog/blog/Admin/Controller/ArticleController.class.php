@@ -32,6 +32,7 @@ class ArticleController extends Controller {
 			$articles = D('Article');
 			$aid = $articles->addarticle(
 									I('post.title','','htmlspecialchars'),
+									I('post.thumbnail','','htmlspecialchars'),
 									I('post.intro','','htmlspecialchars'),
 									I('post.cate','','htmlspecialchars'),
 									I('post.author','','htmlspecialchars'),
@@ -57,7 +58,7 @@ class ArticleController extends Controller {
 	public function updateArticle(){
 		if(IS_AJAX){
             $article = D('Article');
-            $aid = $article->updateArticle(I('post.id'),I('post.title'),I('post.intro'),I('post.cate'),I('post.author'),I('post.create_time'),I('post.content'));
+			$aid = $article->updateArticle(I('post.id'),I('post.title'),I('post.thumbnail'),I('post.intro'),I('post.cate'),I('post.author'),I('post.create_time'),I('post.content'));
             echo $aid;
 		}
 	}

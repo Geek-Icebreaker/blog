@@ -75,3 +75,19 @@ h2 {
 #editLinks p,#addLinks p{
 	margin-left:20px;
 }
+.article_table{
+	margin:19px auto;
+	
+}
+.article_table,.article_table td,.article_table{
+	border:1px solid gray;border-collapse:collapse;
+}
+.article_table td{
+	padding:2px 10px;
+}
+.td1{
+	width:100px;
+}
+.td2{
+	padding:5px !important;
+}

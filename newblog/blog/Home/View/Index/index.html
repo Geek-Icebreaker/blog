@@ -52,13 +52,10 @@
 					</div>
 					<volist name="articleList" id="vo">
 						<article class="excerpt excerpt-1">
-							<a class="focus" href="article/{$vo['a_id']}.html" title=""><img class="thumb" data-original="__IMAGES__/excerpt.jpg" src="__IMAGES__/excerpt.jpg" alt=""></a>
+							<a class="focus" href="article/{$vo['a_id']}.html" title=""><img class="thumb" data-original="" src="{$vo['a_thumbnail']}" alt=""></a>
 							<header>
 								<a class="cat" href="program">{$vo['cate_name']}<i></i></a>
 								<h2><a href="/article/{$vo['a_id']}.html" title="">{$vo['a_title']}</a></h2>  <!--{$vo['a_id']}-->
-								<!--{:U('Article/index/',array('a_id' => $vo['a_id']))}-->
-								
-								
 							</header>
 							<p class="meta">
 								<time class="time"><i class="glyphicon glyphicon-time"></i>{$vo['create_time']}</time>
@@ -123,29 +120,30 @@
 
 	<include file="Public:right"/>
   </aside>
-		<!--右侧部分结束-->
-		</section>
-		
-		<!--页脚部分开始-->
-		<include file="Public:footer"/>
-		<!--页脚部分结束-->
-		
-		<!--about部分开始-->
-		<include file="Public:about"/>
-		<!--about部分结束-->
-		
-		<!--登录注册开始-->
-		<include file="Public:loginReg"/>
-		<!--登录注册结束-->
+	<!--右侧部分结束-->
+	</section>
+	
+	<!--页脚部分开始-->
+	<include file="Public:footer"/>
+	<!--页脚部分结束-->
+	
+	<!--about部分开始-->
+	<include file="Public:about"/>
+	<!--about部分结束-->
+	
+	<!--登录注册开始-->
+	<include file="Public:loginReg"/>
+	<!--登录注册结束-->
 
-		
-		<!--右键菜单列表-->
-		<!--<include file="Public:remoteInfo"/>-->
+	
+	<!--右键菜单列表-->
+	<!--<include file="Public:remoteInfo"/>-->
+
 	<script type="text/javascript">
 		var thinkphp = {
 			'url':'__ROOT__/index.php/',
 			'search':'__ROOT__'
-		}
+	}
 	</script>
 	<script src="__JS__/bootstrap.min.js"></script> 
 	<script src="__JS__/jquery.ias.js"></script> 

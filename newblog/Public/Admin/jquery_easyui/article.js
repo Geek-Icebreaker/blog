@@ -89,6 +89,7 @@ $(function () {
                             data: {
                                 id: $.trim($('input[name="e_id"]').val()),
                                 title: $('input[name="e_title"]').val(),
+								thumbnail:$('#upload_img').attr('src'),
 								intro: $('input[name="e_intro"]').val(),
                                 cate: $('#e-cate').combobox('getValue'),
                                 author: $('#e-author').combobox('getValue'),
@@ -196,10 +197,21 @@ $(function () {
             $('#articleList').datagrid('reload');
         },
         add: function () {
-			$('input[name="file"]').filebox({
-				buttonText: '选择上传图片',
-				buttonAlign: 'right'
-			})
+			$(function() {
+				$("#file_upload").uploadify({
+					buttonText: '上传缩略图',
+					height        : 30,
+					swf           : thinkphp.public + '/Admin/uploadify/uploadify.swf',
+					uploader      : thinkphp.url + 'Upload/articleThumbnail',
+					width         : 120,
+					'onUploadSuccess' : function(file, data, response) {
+						if(response){
+							data = JSON.parse(data);
+							$("#upload_img").attr('src', thinkphp.uploads + data.path).show();
+						}
+					}
+				});
+			});
 			$('input[name="title"]').validatebox({
                 required: true,
                 missingMessage: "请输入文章标题",
@@ -283,12 +295,12 @@ $(function () {
 				}			
 			});
             $('#addArticle').dialog({
-                maximizable: true,  //是否使用放大按钮
+                maximizable: false,  //是否使用放大按钮
                 collapsible: true, //是否使用折叠按钮
                 draggable: true, //是否可以拖拽  默认ture
                 title: '新建文章',
-                width: 960,
-                height: 550,
+                width: 1000,
+                height: 600,
                 modal: true,
                 buttons: [
                     {
@@ -300,6 +312,7 @@ $(function () {
                                 url: thinkphp.url + "Article/addarticle",
                                 data: {
                                     title: $('input[name="title"]').val(),
+									thumbnail:$('#upload_img').attr('src'),
 									intro: $('input[name="intro"]').val(),
                                     cate: $('#cate').combobox('getValue'),
                                     author: $('input[name="author"]').val(),
@@ -338,6 +351,21 @@ $(function () {
         },
 
         edit: function () {
+			$(function() {
+				$("#file_upload").uploadify({
+					buttonText: '上传缩略图',
+					height        : 30,
+					swf           : thinkphp.public + '/Admin/uploadify/uploadify.swf',
+					uploader      : thinkphp.url + 'Upload/articleThumbnail',
+					width         : 120,
+					'onUploadSuccess' : function(file, data, response) {
+						if(response){
+							data = JSON.parse(data);
+							$("#upload_img").attr('src', thinkphp.uploads + data.path).show();
+						}
+					}
+				});
+			});
             $('input[name="e_title"]').validatebox({
                 required: true,
                 missingMessage: "请输入文章标题",
@@ -437,6 +465,7 @@ $(function () {
                            $('#editArticle').form('load', {
                                 e_id:resp.a_id,
                                 e_title: resp.a_title,
+								e_uploadImg:resp.a_thumbnail,
 								e_intro:resp.a_intro,
                                 e_cate: resp.cate_name,
                                 e_author: resp.name,
